@@ -1,0 +1,66 @@
+================= ## Money ## =================
+uIt0401 = 1025 = Gold (Large)
+uIt0402 = 1026 = Gold (Small)
+uIt0403 = 1027 = Gold bars
+
+================= ## Treasure ## =================
+uIt0417 = 1047 = Gold ring (Executioner)
+uIt0418 = 1048 = Dead bride's necklace (Army with Rocket launcher 6-1)
+uIt0419 = 1049 = Venom fang (Chainsaw Majini 3-2)
+uIt041a = 1050 = Antique clock (Before Allyson)
+uIt041b = 1051 = Chalice (Silver) (Marshland)
+uIt041c = 1052 = Chalice (Gold) (Labyrinth)
+uIt041d = 1053 = Idol (Silver) (Marshland?)
+uIt041e = 1054 = Idol (Gold) (Cave)
+uIt041f = 1055 = Ceremonial mask (Gold Mask from 3-1 Village)
+uIt0420 = 1056 = Ivory relief (Allyson)
+uIt0421 = 1057 = Beetle (Brown) (Marshland)
+uIt0422 = 1058 = Jewel beetle (3-2 Before Oil field)
+uIt0423 = 1059 = Royal necklace (5-3 Missile Area 2F)
+uIt0424 = 1060 = Jewel bangle (Big Man Majini)
+uIt0425 = 1061 = Beetle (Gold) (4-2 Pyramid)
+uIt0426 = 1062 = Beetle (Mable?) (*UNUSE* /Appear in PSHome)
+
+================= ## Gems ## =================
+uIt0450 = 1104 = Topaz (Pear)
+uIt0451 = 1105 = Ruby (Pear)
+uIt0452 = 1106 = Sapphire (Pear)
+uIt0453 = 1107 = Emerald (Pear)
+uIt0454 = 1108 = Diamond (Pear) (2-1 majini port, 2-2 shoot)
+
+uIt0457 = 1111 = Topaz (Square)
+uIt0458 = 1112 = Ruby (Square)
+uIt0459 = 1113 = Sapphire (Square)
+uIt045a = 1114 = Emerald (Square)
+uIt045b = 1115 = Diamond (Square) (2-2 shoot)
+
+uIt045e = 1118 = Topaz (Oval) (4-1 Labyrinth statue)
+uIt045f = 1119 = Ruby (Oval) (4-1 Labyrinth statue)
+uIt0460 = 1120 = Sapphire (4-1 Labyrinth statue)
+uIt0461 = 1121 = Emerald (4-1 Labyrinth statue)
+uIt0462 = 1122 = Diamond (2-2 Mines chest)
+
+uIt0465 = 1125 = Topaz (Trilliant) (4-1)
+uIt0466 = 1126 = Ruby (Trilliant) (4-1)
+uIt0467 = 1127 = Sapphire (Trilliant) (4-1)
+uIt0468 = 1128 = Emerald (Trilliant) (4-1)
+uIt0469 = 1129 = Diamond (Trilliant) (4-2)
+
+uIt046c = 1132 = Power stone (Reaper)
+uIt046d = 1133 = Lion heart (Licker BETA)
+uIt046e = 1134 = Blue engima (Giant Majini)
+uIt046f = 1135 = Soul gem (4-1 Popokarimu)
+uIt0470 = 1136 = Heart of Africa (Wesker & Jill)
+
+uIt0473 = 1139 = Topaz (Marquise) (1-1 Mob fight)
+uIt0474 = 1140 = Ruby (Marquise) (2-1 The Port chest)
+uIt0475 = 1141 = Sapphire (Marquise) (5-3 Uro office)
+uIt0476 = 1142 = Emerald (Marquise) (3-3)
+uIt0477 = 1143 = Diamond (Marquise) (6-3 Uro Wesker)
+
+uIt047a = 1146 = Topaz (Brilliant) (5-3 Licker area)
+uIt047b = 1147 = Ruby (Brilliant) (5-3 Licker area)
+uIt047c = 1148 = Sapphire (Brilliant) (5-3 Wesker)
+uIt047d = 1149 = Emerald (Brilliant) (5-3 Wesker)
+uIt047e = 1150 = Diamond (Brilliant) (2-2 Mining area chest)
+

@@ -1,0 +1,7 @@
+init = not done
+items = done
+locations = not done, waiting on regions(?)
+options = done
+regions = not done
+rules = not done, waiting on regions AND locations
+types = is this even needed? not done, but somewhat modified.

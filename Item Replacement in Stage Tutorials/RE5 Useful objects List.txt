@@ -1,0 +1,246 @@
+***=== RE5 Useful objects uOmXXXX List ===**************************
+
+uOmObjAdjust = collision, invisible box (e.g. Reynard standing collision 1-1)
+
+===== Explosive/Damage Objects =====================================
+
+ uOm0886 = Explosive red barrel
+ uOm08ba = Explosive canister (from 1-2 Uroboros fight), knockable
+uOm08ba_Fix = Unknockable version [must +90 y]
+ uOm08c8 = Rectangular box of gases (from Missile Area)
+ uOm08d8 = Similar to 08ba but with different looks (from 5-2 Uroboros Mkono fight)
+ uOm0933 = Electric transformer, start above ground
+ uOm0934 = Flammable oil barrels
+uOm0957 = Big explosive tank (from 3-3), no collision
+
+uOm0946 = Deadly Laser (from 4-2 Pyramid), Fully working!,  instant kill to everythings, can be blocked by objects. Need s3030b,0c efl
+uOm0947 = White Sphere? No collision or hit
+
+====================================================================
+
+===== Breakable for items Objects ==================================
+
+ uOm0823 = Small basic box
+ uOm087a = Small jar
+ uOm087b = Tall jar
+ uOm0889 = Rectangular small box, basic design army
+ uOm0890 = Round tall barrel
+ uOm08bd = Rectangular tall box army
+uOm083f = Grape fruits!
+uOm0840 = Tomatoes!
+
+====================================================================
+
+===== Openable Chest/Box Objects ===================================
+
+ uOm088a = Treasure chest
+ uOm088b = Tribal treasure chest
+uOm088c = Ancient treasure chest
+ uOm088d = Modern safe
+uOm08f0 = Small briefcase for weapon
+uOm08f1 = Medium briefcase
+ uOm08f2 = Big briefcase
+ uOm08e2 = Co-op Ancient coffin
+
+====================================================================
+
+===== Full collision Objects =======================================
+
+ uOm0700 = A large, breakable window! It's pretty sweet, though does leave some glass in the air where you broke it...gotta be careful where you place this to make it realistic.
+uOm0701 = A round breakable window, seems like only half of it is here though, the other half must be a different ID.
+uOm0702 = A tiny breakable glass window.
+ uOm0703 = A large glass tube that has some kind of parasite animation going on in-side of it. It isn't breakable, but it has have collison.
+ uOm070c = A human size medium glass nice!
+uOm1103 1104 = window "jump out","jump in" 1-1 PA, 04=no wood ,full coll!
+
+ uOm0847 = breakable booth from PA full coll
+ uOm0848 = breakable booth shop from PA full coll
+ uOm084c = breakable booth shop from PA full coll
+uOm0856S114 = The pushable wooden shelves from the first main fight in Public Assembly. Without special scripts, you can push them with no limit - that includes pushing them through walls.
+uOm0857 = The breakable desk from house in PA
+ uOm0859 = Breakable wall in PA (Explosion/Executioner only)
+ uOm0861 0862 = boat from croccodile zone in marshland
+
+ uOm08ac_Fence = A nice green metal fence (from PA)
+ uOm0875 = Cell spike door (2-2 cave, open by crank)
+ uOm0893 = Co-op big gate (chopper crash site)fully working!
+uOm089aSelf = infinite pushable blue trash
+uOm089b = inf coop pushable trash (6-1ship deck)
+ uOm08bf = Red big gate in 1-1PA (destroyed by Kirk)
+ uOm08e0 = Ancient big blue door (4-1 Cavern)
+
+ uOm090b_SteelBox = Steel box (from Missile Area 1f)
+uOm090c_BeltShutter = Shutter (from Missile Area 1f)
+ uOm0929 = Small cell door block working!(5-3 wesker monarch room)
+uOm092c = container door 
+uOm092d = mirror for puzzle in chapter 4-2 
+ uOm092e_LaserBlock = Kickable Block laser [Require some files]
+uOm0935 = Big ancient door above ground
+uOm0941 = Metal box (rocket bunker 6-1), not so good coll, not breakable
+uOm094a = chair PA full coll ,unmovable
+uOm094b = linchuk
+ uOm0953 = Worship Area door that need 3 emblems
+ uOm0954 = Woods from ceiling in 1-1 PA before executioner break in the fence full coll!
+ uOm0956 = Big water gate from 3-3 full coll!
+ uOm0965 = Air vent window that licker come out 5-2 full coll!
+
+ uOm1302Track = Popokarimu truck full coll!
+ uOm1303_Truck = full coll 2-3 truck!
+uOm1304 = Jeep in 2-3, HUD change to "Vehicle HP" while using, can be damage and Game over if destroyed,full coll
+ uOm1306 = 3-1 boat fully function!
+
+====================================================================
+
+===== No Collision , for Decoration Objects ========================
+
+ uOm001c = Big Pile of Dead Majini Bodys, has no built in 
+uOm002c = bloody face
+
+uOm0805 = Umbrella PA
+
+uOm0865 = 1-2 Furnance airduct fan
+uOm08bc = 1-2 Furnance switch lever
+uOm08be = 1-2 Furnance shutter (hardcoded position?)
+
+uOm0867 = Umbrella different (both umbrella breakable no coll)
+uOm0818 = A "Towel/ Clothing" drying line. Has no collison. It also has a generic swayying animation on the fabric items. Good for extra detail in an area a character can't reach.
+ uOm0851 0852 = oil poly box
+uOm0855 = A cardboard box that can be moved around. You see alot of these in the Urban District.
+uOm0849 = Same thing as above
+uOm0850 = Same thing as above, but a different looking box.
+ uOm0843 44 45 46= meat in butcher shop.
+uOm084a = takra decorate hit
+ uOm084b = breakable skull
+ uOm087d 7e = animal breakable skull
+uOm0880 = spear 
+uOm0881 = shield
+uOm0882 83 84 = mask
+uOm0888 = radio
+ uOm0896 97 = marshland fish fish aligator gar,pirarucu hit
+uOm0898 99 = village meat
+uOm089d = Barn from popo 2-2 fight breakable no coll
+uOm08a3 = raft from 3-2 croc
+
+ uOm08ad = Giant weeds/grass. Have full interaction built in, if you walk through it, the weeds move around. Great for adding additonal detail to a stage.
+
+uOm08c0 = Kirk dead body 2-1 crash site no coll
+ uOm08d7 = trafic corn
+ uOm08d9 = bunch of paper boxs 5-1 after 2 licker, hit
+
+uOm091a = 5-1 flower (about 170cm) no collision
+uOm091b = 5-1 flower (shorter)(100cm) no collision
+ uOm091d = breakable road barricade from2-3
+ uOm091e = troll toilet 2-2
+uOm0924_Container = 6-1updown container no coll
+uOm0926_Container = 6-1ceil container no coll
+ uOm092a = BIG tower i never seen!**
+ uOm0937 = bloody switch trap on ground no coll
+ uOm0938_Light = HUGE Light. Has a massive powerful light that moves around a bit. No hit detection or collison.
+ uOm0970 = light similar to 0938_Light
+ uOm0939 3a 3b 3c 3d = ancient statue 4-1
+uOm0948 = flower no coll
+uOm0949 = some kind of white fresh ugly tube unseen
+uOm094d = fishes in marshland
+uOm0952 = giant laser mirror from 4-2 worship area
+
+uOm120a 0b 0c 0d = village masks
+
+uOm1301 02 =jeep no coll
+uOM1308 = The White Boat from the start of 4-1. "Bird Lady's & Irvings "Get-away" boat"
+ uOm1309 16 = HD chopper/ no HD chopper with spinning
+uOm130b = A Cutscene Car. Has No hit detection or collison.
+uOm1314 = dead van from 1-1 civ chk no coll
+ uOM1315 = A power line pole on fire! (No Collison)
+ uOm1316_BackupHeli= Helicopter model that comes in during chapter 2-1 with rocket launcher and blows enemy's up. Without speical scripts it just sits in the air idle.
+ uOm130f = Wesker jet plane
+uOm131f = josh boat 3-3 no coll
+
+ uOma013_Uro2B = 6-2 moving Uroboros Aheri seen from inside the ship bridge!
+ uOmS511_UroExtra = Uroboros Aheri corpse for 6-3 ,[need em42 eff]
+
+uOmdd10_Pl1_1 = Uh.. A Chris BSAA Model with a few weapons, no hit detection or collison, just stands there in a "Stand" animation, Cutscene related?
+uOmdd11_Pl1_2 = Flash-Back Chris Model, with a Machine Gun and Grenade Launcher, does nothing but just stand there in an Idil Stand Animation, Maybe cutscene related?
+
+uOmde8a = wounded dechant t-posed
+uOmde9a = wounded bsaa t-posed
+uOmde99 = civilian corpse t-posed
+
+====================================================================
+
+===== Plants Objects for decoration ================================
+
+ uOm0811 = basic corn tree
+ uOm0816 = banana tree
+ uOm0858 = HD coconut tree! no coll
+ uOm085a = 1-1 big tree with leafs! no coll
+ uOm0869 0873 = 69Tree w ton of tiny leaves ,73 =no leaf
+ uOm086a = bush of 0811 no coll
+ uOm086b = lake plantsss
+ uOm086c = lake plantsss flower
+uOm086d = many bua lotus
+ uOm086e 6f 7f 9e = chunks of plantsssssssss use in lake marshland
+ uOm08d6 = lake plants
+
+====================================================================
+
+===== Misc./Trap Objects ===========================================
+
+  uOm0100 = time bonus
+
+ uOm08db = kickable Torch from village 3-1
+ uOm08da = small breakable bon fire ,very nice!!!!!!!!!!!!!
+
+ uOm0017 = wire trap (2 sets of positions and angles, first is the bomb, second is the end of the wire. Second pos is actually rotated 90 degrees to the left with the wire trap as anchor) (based on s104, wiretraps are usually +117 above the ground)
+
+ uOm0034 = grab subject corpse (Missile Area convoyer belt)
+uOmdc14 = Base Majini body lays on ground, grabs youw when you get close. Pretty awesome. Have full hit detection, and collison. Works 100%
+uOmdc12 = Village Majini body lays on ground, grabs youw when you get close. Pretty awesome. Have full hit detection, and collison. Works 100%
+uOmdc11 = Female Town Majini body lays on ground, grabs you when you get close, Exactly like like the own above. 
+uOmdc10 = Town Majini body lays on ground, grabs you when you get close, Exactly like like the own above. 
+uOmdc9d = "Test Tub Subject" body lays on ground, grabs you when you get close, Exactly like like the own above. 
+
+ uOma00e_UroWall = Uroboros Wall, has full hit detection and collison. Has to be shot to "Lift" it. Pretty neat feature. Used in 6-2 Ship. [Require some em40 eff]
+ uOma00f_UroPunch= Uroboros part that sits on the celling, comes down to attack when your close, brings up "Duck" prop box. Has full hit & collsion detection. Used in 6-2 Ship
+
+uOm08c6 = village spike trap
+uOm0968 = metal spike trap EF
+
+uOm002a = Long Wodden Ladder. Has built in "Raise Up" and "Cimb" features on it. Has built in collison
+uOm002B = Short Wodden Ladder. Has built in "Raise Up" and "Cimb" features on it.Has built in collison
+uOM002BS = A long wooden ladder. This one is already set up on level load, you can still knock it down though.(Very useful!)
+uOm08c9 = merc village style ladder like uom002a
+
+====================================================================
+
+=================== DLC =====================
+uOm020a = spear gate
+uOm020b = mansion breakable jar
+uOm020e = Blue door-dinning room
+uOm020f = Wooden door-mansion
+uOm021a = Barricade
+uOm021b = fixed crank
+uOm021c = Piano room switch
+uOm021d = floor?
+uOm021e(fixed red crank)
+uOm021f(fixed blue crank)
+uOm0200(trap room)
+uOm0201(piano)
+uOm0202(white door)
+uOm0206(spencer body guards)
+uOm0207(white door2)
+uOm0208(column in wood)
+uOm0209(emblem door)
+uOm0210(door-control room)
+uOm0215 = DE red gate
+uOm0216 = DE X-Rock (Can be destroyed by explosive)
+uOm0220(fixed yellow crank)
+uOm0221(fixed green crank)
+uOm0222(grey gate-mansion)
+uOm0223(fixed blue emblem)
+uOm0224(truck light)
+uOm0225(room's wall)
+
+********************************************************************
+
+
+

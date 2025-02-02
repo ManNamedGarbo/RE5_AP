@@ -1,0 +1,6 @@
+- Add locations and regions to the apworld
+- Give unique alias' to the apworld locations and items to prep for json output (this will be used by the patcher program to make the "game mod")
+- Figure out a way to give every location a unique identifier, since some items can be found present in multiple arc files, thus it cannot randomize based on ItemId (i.e. uIt0402 could be present in "s117.arc", "s118.arc", "s500.arc", so telling my arc randomizer program "uIt0402 = s118.arc" won't work for it to modify that location, cause it'll change all instances of that location.)
+- Find out how the dynamic memory works for Gold, Player Inventory (less important), and Story Inventory (extremely important)
+- Find a pointer in memory that says when a player enters a specific level
+- Get some kind of AP client? Not sure where to start with this. Might use ArsonAssassin's Memory Library to help track dynamic memory and double as a client if I can figure that out at some point.

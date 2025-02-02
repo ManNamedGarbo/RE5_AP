@@ -1,0 +1,3130 @@
+-----------------------s102 1-2 Urban District-----------------------
+Location: uIt0509 Old Building key
+ItemId: 1289 Unknown Item
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0304 First Aid Spray
+ItemId: 772 First Aid Spray
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt041a uIt041a
+ItemId: 1050 Antique clock (Before Allyson)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp04 Ithaca M37
+ItemId: 260 Ithaca M37
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0203 SG Ammo
+ItemId: 515 SG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0420 uIt0420
+ItemId: 1056 Ivory relief (Allyson)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s103 1-2 Furnace Facility (Uroboros)-----------------------
+Location: uIt0503 Furnace key
+ItemId: 1283 Furnace key
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: 5
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: 5
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: 5
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0417 uIt0417
+ItemId: 1047 Gold ring (Executioner)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+
+-----------------------s104 2-1 The Bridge-----------------------
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0304 First Aid Spray
+ItemId: 772 First Aid Spray
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0424 uIt0424
+ItemId: 1060 Jewel bangle (Big Man Majini)
+ItemNum: 1
+SetType: 1 = Drop by linked enemy
+
+
+-----------------------s105 2-1 Shanty Town (Chainsaw)-----------------------
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt051A uIt051A
+ItemId: 1306 Unknown Item
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0403 uIt0403
+ItemId: 1027 Gold bars
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0450 uIt0450
+ItemId: 1104 Topaz (Pear)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0459 uIt0459
+ItemId: 1113 Sapphire (Square)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0453 uIt0453
+ItemId: 1107 Emerald (Pear)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0458 uIt0458
+ItemId: 1112 Ruby (Square)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0701 uIt0701
+ItemId: 1793 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+
+-----------------------s106 2-1 Train Yard-----------------------
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s107 2-2 The Mines-----------------------
+Location: uWp30 Lantern
+ItemId: 304 Lantern
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp08 Flash Grenade
+ItemId: 264 Flash Grenade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0462 uIt0462
+ItemId: 1122 Diamond (2-2 Mines chest)
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uIt0451 uIt0451
+ItemId: 1105 Ruby (Pear)
+ItemNum: -1
+SetType: 5
+
+Location: uIt0451 uIt0451
+ItemId: 1105 Ruby (Pear)
+ItemNum: -1
+SetType: 5
+
+Location: uIt0451 uIt0451
+ItemId: 1105 Ruby (Pear)
+ItemNum: -1
+SetType: 5
+
+Location: uIt0458 uIt0458
+ItemId: 1112 Ruby (Square)
+ItemNum: -1
+SetType: 5
+
+Location: uIt0458 uIt0458
+ItemId: 1112 Ruby (Square)
+ItemNum: -1
+SetType: 5
+
+Location: uWp08 Flash Grenade
+ItemId: 264 Flash Grenade
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uWp08 Flash Grenade
+ItemId: 264 Flash Grenade
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+
+-----------------------s108 2-2 Mining Area (Popokarimu)-----------------------
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp0a Proximity Bomb
+ItemId: 266 Proximity Bomb
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp0a Proximity Bomb
+ItemId: 266 Proximity Bomb
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp0a Proximity Bomb
+ItemId: 266 Proximity Bomb
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp08 Flash Grenade
+ItemId: 264 Flash Grenade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp0a Proximity Bomb
+ItemId: 266 Proximity Bomb
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uWp0a Proximity Bomb
+ItemId: 266 Proximity Bomb
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uWp0a Proximity Bomb
+ItemId: 266 Proximity Bomb
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0203 SG Ammo
+ItemId: 515 SG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp20 Dragunov SVD
+ItemId: 288 Dragunov SVD
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt047e uIt047e
+ItemId: 1150 Diamond (Brilliant) (2-2 Mining area chest)
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uIt0454 uIt0454
+ItemId: 1108 Diamond (Pear) (2-1 majini port, 2-2 shoot)
+ItemNum: -1
+SetType: 5
+
+Location: uIt045b uIt045b
+ItemId: 1115 Diamond (Square) (2-2 shoot)
+ItemNum: -1
+SetType: 5
+
+Location: uIt0704 uIt0704
+ItemId: 1796 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s113 2-1 The Port-----------------------
+Location: uIt0506 Port key
+ItemId: 1286 Port key
+ItemNum: -1
+SetType: 5
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0452 uIt0452
+ItemId: 1106 Sapphire (Pear)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt045a uIt045a
+ItemId: 1114 Emerald (Square)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0450 uIt0450
+ItemId: 1104 Topaz (Pear)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0203 SG Ammo
+ItemId: 515 SG Ammo
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0474 uIt0474
+ItemId: 1140 Ruby (Marquise) (2-1 The Port chest)
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uWp05 S75
+ItemId: 261 S75
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0424 uIt0424
+ItemId: 1060 Jewel bangle (Big Man Majini)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0424 uIt0424
+ItemId: 1060 Jewel bangle (Big Man Majini)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0454 uIt0454
+ItemId: 1108 Diamond (Pear) (2-1 majini port, 2-2 shoot)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+
+-----------------------s114 1-1 Public Assembly (Horde)-----------------------
+Location: uIt0417 uIt0417
+ItemId: 1047 Gold ring (Executioner)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uWp03 VZ61
+ItemId: 259 VZ61
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: 400
+SetType: 2 = Link to chest/box
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0701 uIt0701
+ItemId: 1793 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+
+-----------------------s116 1-1 Back Alley 2nd Half-----------------------
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp3c Egg White
+ItemId: 316 Egg White
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uWp3c Egg White
+ItemId: 316 Egg White
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: 5
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0473 uIt0473
+ItemId: 1139 Topaz (Marquise) (1-1 Mob fight)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s117 1-2 Abandoned Building-----------------------
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 300
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 300
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: 400
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s118 2-1 Storage Facility-----------------------
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 300
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 300
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: 400
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp13 H&K MP5
+ItemId: 769 Herb Green
+ItemNum: 1
+SetType: 3 = Link to suitcase
+
+Location: uIt0701 uIt0701
+ItemId: 1793 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0701 uIt0701
+ItemId: 1793 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0701 uIt0701
+ItemId: 1793 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+
+-----------------------s119 2-2 Train Station-----------------------
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0422 uIt0422
+ItemId: 1058 Jewel beetle (3-2 Before Oil field)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0705 uIt0705
+ItemId: 1797 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0422 uIt0422
+ItemId: 1058 Jewel beetle (3-2 Before Oil field)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s200 3-1 Marshlands-----------------------
+Location: uIt0512 Shaman Slate
+ItemId: 1298 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0515 Raptor Slate
+ItemId: 1301 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0512 Shaman Slate
+ItemId: 1298 Unknown Item
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0515 Raptor Slate
+ItemId: 1301 Unknown Item
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt041d uIt041d
+ItemId: 1053 Idol (Silver) (Marshland?)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt041b uIt041b
+ItemId: 1051 Chalice (Silver) (Marshland)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0451 uIt0451
+ItemId: 1105 Ruby (Pear)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0421 uIt0421
+ItemId: 1057 Beetle (Brown) (Marshland)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt041b uIt041b
+ItemId: 1051 Chalice (Silver) (Marshland)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0607 Slate map
+ItemId: 1543 Slate map
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp10 H&K P8
+ItemId: 272 H&K P8
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0518 ---
+ItemId: 1304 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0518 ---
+ItemId: 1304 Unknown Item
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt041d uIt041d
+ItemId: 1053 Idol (Silver) (Marshland?)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0513 Warrior Slate
+ItemId: 1299 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0513 Warrior Slate
+ItemId: 1299 Unknown Item
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0514 Beast Slate
+ItemId: 1300 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0514 Beast Slate
+ItemId: 1300 Unknown Item
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0421 uIt0421
+ItemId: 1057 Beetle (Brown) (Marshland)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp3c Egg White
+ItemId: 316 Egg White
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp3c Egg White
+ItemId: 316 Egg White
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp3c Egg White
+ItemId: 316 Egg White
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 30
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0421 uIt0421
+ItemId: 1057 Beetle (Brown) (Marshland)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0421 uIt0421
+ItemId: 1057 Beetle (Brown) (Marshland)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0421 uIt0421
+ItemId: 1057 Beetle (Brown) (Marshland)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0451 uIt0451
+ItemId: 1105 Ruby (Pear)
+ItemNum: -1
+SetType: 6
+
+Location: uIt0453 uIt0453
+ItemId: 1107 Emerald (Pear)
+ItemNum: -1
+SetType: 6
+
+Location: uIt0457 uIt0457
+ItemId: 1111 Topaz (Square)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp0d Rocket Launcher
+ItemId: 269 Rocket Launcher
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0421 uIt0421
+ItemId: 1057 Beetle (Brown) (Marshland)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0701 uIt0701
+ItemId: 1793 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0421 uIt0421
+ItemId: 1057 Beetle (Brown) (Marshland)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0451 uIt0451
+ItemId: 1105 Ruby (Pear)
+ItemNum: -1
+SetType: 6
+
+
+s201 3-2 Execution Ground
+Location: uIt0701 uIt0701
+ItemId: 1793 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0304 First Aid Spray
+ItemId: 772 First Aid Spray
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0451 uIt0451
+ItemId: 1105 Ruby (Pear)
+ItemNum: -1
+SetType: 6
+
+Location: uIt0459 uIt0459
+ItemId: 1113 Sapphire (Square)
+ItemNum: -1
+SetType: 6
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 60
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 70
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 90
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0422 uIt0422
+ItemId: 1058 Jewel beetle (3-2 Before Oil field)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0458 uIt0458
+ItemId: 1112 Ruby (Square)
+ItemNum: -1
+SetType: 5
+
+Location: uIt0422 uIt0422
+ItemId: 1058 Jewel beetle (3-2 Before Oil field)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+
+-----------------------s202 3-1 Village (Giant Majini x2)-----------------------
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 50
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt041f uIt041f
+ItemId: 1055 Ceremonial mask (Gold Mask from 3-1 Village)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: 400
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0209 MAG Ammo
+ItemId: 521 MAG Ammo
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0209 MAG Ammo
+ItemId: 521 MAG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp0b S&W M29
+ItemId: 267 S&W M29
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0709 uIt0709
+ItemId: 1801 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt046e uIt046e
+ItemId: 1134 Blue engima (Giant Majini)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt046e uIt046e
+ItemId: 1134 Blue engima (Giant Majini)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0422 uIt0422
+ItemId: 1058 Jewel beetle (3-2 Before Oil field)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s203 3-2 Oil Field - Control Facility (Interior Chainsaw Boss)-----------------------
+Location: uWp0a Proximity Bomb
+ItemId: 266 Proximity Bomb
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0424 uIt0424
+ItemId: 1060 Jewel bangle (Big Man Majini)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0424 uIt0424
+ItemId: 1060 Jewel bangle (Big Man Majini)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0417 uIt0417
+ItemId: 1047 Gold ring (Executioner)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+
+-----------------------s204 3-3 Oil Field - Drilling Facilities-----------------------
+Location: uIt0476 uIt0476
+ItemId: 1142 Emerald (Marquise) (3-3)
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: 15
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: 50
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0304 First Aid Spray
+ItemId: 772 First Aid Spray
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0203 SG Ammo
+ItemId: 515 SG Ammo
+ItemNum: 10
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp16 M3
+ItemId: 278 M3
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uIt0452 uIt0452
+ItemId: 1106 Sapphire (Pear)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: 15
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: 10
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0209 MAG Ammo
+ItemId: 521 MAG Ammo
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: 50
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0203 SG Ammo
+ItemId: 515 SG Ammo
+ItemNum: 10
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: 15
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: 15
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s205 3-3 Patrol Boat (Irving)-----------------------
+Location: uIt0304 First Aid Spray
+ItemId: 772 First Aid Spray
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s207 3-2 Oil Field - Refinery (Chainsaw Majini x2)-----------------------
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uWp0a Proximity Bomb
+ItemId: 266 Proximity Bomb
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0419 uIt0419
+ItemId: 1049 Venom fang (Chainsaw Majini 3-2)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0419 uIt0419
+ItemId: 1049 Venom fang (Chainsaw Majini 3-2)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0422 uIt0422
+ItemId: 1058 Jewel beetle (3-2 Before Oil field)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+
+s209 3-2 Oil Field - Dock
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0417 uIt0417
+ItemId: 1047 Gold ring (Executioner)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0403 uIt0403
+ItemId: 1027 Gold bars
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s300 4-1 Ancient Village-----------------------
+Location: uIt0467 uIt0467
+ItemId: 1127 Sapphire (Trilliant) (4-1)
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uIt0468 uIt0468
+ItemId: 1128 Emerald (Trilliant) (4-1)
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uIt0466 uIt0466
+ItemId: 1126 Ruby (Trilliant) (4-1)
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uIt0452 uIt0452
+ItemId: 1106 Sapphire (Pear)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0451 uIt0451
+ItemId: 1105 Ruby (Pear)
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0457 uIt0457
+ItemId: 1111 Topaz (Square)
+ItemNum: -1
+SetType: 5
+
+Location: uIt0457 uIt0457
+ItemId: 1111 Topaz (Square)
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: 150
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: 100
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: 100
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: 150
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0459 uIt0459
+ItemId: 1113 Sapphire (Square)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0453 uIt0453
+ItemId: 1107 Emerald (Pear)
+ItemNum: -1
+SetType: 6
+
+Location: uIt0452 uIt0452
+ItemId: 1106 Sapphire (Pear)
+ItemNum: -1
+SetType: 6
+
+Location: uIt0450 uIt0450
+ItemId: 1104 Topaz (Pear)
+ItemNum: -1
+SetType: 6
+
+Location: uIt0451 uIt0451
+ItemId: 1105 Ruby (Pear)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: 150
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: 200
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: 100
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: 100
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: 150
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: 100
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0401 uIt0401
+ItemId: 1025 Gold (Large)
+ItemNum: 100
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s301 4-1 Labyrinth (Popokarimu)-----------------------
+Location: uWp0a Proximity Bomb
+ItemId: 266 Proximity Bomb
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt045a uIt045a
+ItemId: 1114 Emerald (Square)
+ItemNum: -1
+SetType: 5
+
+Location: uIt020f FLS RND
+ItemId: 527 FLS
+ItemNum: 3
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0459 uIt0459
+ItemId: 1113 Sapphire (Square)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0304 First Aid Spray
+ItemId: 772 First Aid Spray
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt041e uIt041e
+ItemId: 1054 Idol (Gold) (Cave)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt046f uIt046f
+ItemId: 1135 Soul gem (4-1 Popokarimu)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0457 uIt0457
+ItemId: 1111 Topaz (Square)
+ItemNum: -1
+SetType: 5
+
+Location: uIt045a uIt045a
+ItemId: 1114 Emerald (Square)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0457 uIt0457
+ItemId: 1111 Topaz (Square)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0451 uIt0451
+ItemId: 1105 Ruby (Pear)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0452 uIt0452
+ItemId: 1106 Sapphire (Pear)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt045f uIt045f
+ItemId: 1119 Ruby (Oval) (4-1 Labyrinth statue)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp0c Grenade Launcher
+ItemId: 268 Grenade Launcher
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt020f FLS RND
+ItemId: 527 FLS
+ItemNum: 3
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s302 4-2 Worship Area-----------------------
+Location: uIt050E uIt050E
+ItemId: 1294 Unknown Item
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt050F uIt050F
+ItemId: 1295 Unknown Item
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0510 Sea Emblem
+ItemId: 1296 Unknown Item
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt050E uIt050E
+ItemId: 1294 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt050F uIt050F
+ItemId: 1295 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0510 Sea Emblem
+ItemId: 1296 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt046e uIt046e
+ItemId: 1134 Blue engima (Giant Majini)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt046e uIt046e
+ItemId: 1134 Blue engima (Giant Majini)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uWp0a Proximity Bomb
+ItemId: 266 Proximity Bomb
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0450 uIt0450
+ItemId: 1104 Topaz (Pear)
+ItemNum: -1
+SetType: 5
+
+Location: uIt0451 uIt0451
+ItemId: 1105 Ruby (Pear)
+ItemNum: -1
+SetType: 5
+
+Location: uIt0452 uIt0452
+ItemId: 1106 Sapphire (Pear)
+ItemNum: -1
+SetType: 5
+
+Location: uIt0453 uIt0453
+ItemId: 1107 Emerald (Pear)
+ItemNum: -1
+SetType: 6
+
+Location: uIt0469 uIt0469
+ItemId: 1129 Diamond (Trilliant) (4-2)
+ItemNum: -1
+SetType: 5
+
+Location: uIt0457 uIt0457
+ItemId: 1111 Topaz (Square)
+ItemNum: -1
+SetType: 6
+
+Location: uIt0459 uIt0459
+ItemId: 1113 Sapphire (Square)
+ItemNum: -1
+SetType: 6
+
+
+-----------------------s303 4-2 Pyramid-----------------------
+Location: uIt0453 uIt0453
+ItemId: 1107 Emerald (Pear)
+ItemNum: -1
+SetType: 6
+
+Location: uIt0451 uIt0451
+ItemId: 1105 Ruby (Pear)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 50
+SetType: 2 = Link to chest/box
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 200
+SetType: 2 = Link to chest/box
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 50
+SetType: 2 = Link to chest/box
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 100
+SetType: 2 = Link to chest/box
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 50
+SetType: 2 = Link to chest/box
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 100
+SetType: 2 = Link to chest/box
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 50
+SetType: 2 = Link to chest/box
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 200
+SetType: 2 = Link to chest/box
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 50
+SetType: 2 = Link to chest/box
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 300
+SetType: 2 = Link to chest/box
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 100
+SetType: 2 = Link to chest/box
+
+Location: uIt0402 uIt0402
+ItemId: 1026 Gold (Small)
+ItemNum: 50
+SetType: 2 = Link to chest/box
+
+Location: uIt0425 uIt0425
+ItemId: 1061 Beetle (Gold) (4-2 Pyramid)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt041e uIt041e
+ItemId: 1054 Idol (Gold) (Cave)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0451 uIt0451
+ItemId: 1105 Ruby (Pear)
+ItemNum: -1
+SetType: 6
+
+
+-----------------------s304 5-1 Experimental Facility (U-8)-----------------------
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: 20
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0203 SG Ammo
+ItemId: 515 SG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: 20
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: 120
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0203 SG Ammo
+ItemId: 515 SG Ammo
+ItemNum: 15
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s305 5-1 Progenitor Virus House-----------------------
+Location: uIt0203 SG Ammo
+ItemId: 515 SG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0403 uIt0403
+ItemId: 1027 Gold bars
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0703 uIt0703
+ItemId: 1795 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0703 uIt0703
+ItemId: 1795 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0706 uIt0706
+ItemId: 1798 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt046d uIt046d
+ItemId: 1133 Lion heart (Licker BETA)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt046d uIt046d
+ItemId: 1133 Lion heart (Licker BETA)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uWp1d AK-74
+ItemId: 285 AK-74
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uIt046d uIt046d
+ItemId: 1133 Lion heart (Licker BETA)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt046d uIt046d
+ItemId: 1133 Lion heart (Licker BETA)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+
+-----------------------s307 5-2 Missile Area 1st Floor (Reaper)-----------------------
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp09 SIG 556
+ItemId: 265 SIG 556
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt046c uIt046c
+ItemId: 1132 Power stone (Reaper)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0418 uIt0418
+ItemId: 1048 Dead bride's necklace (Army with Rocket launcher 6-1)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0418 uIt0418
+ItemId: 1048 Dead bride's necklace (Army with Rocket launcher 6-1)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0424 uIt0424
+ItemId: 1060 Jewel bangle (Big Man Majini)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0705 uIt0705
+ItemId: 1797 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+
+-----------------------s308 5-2 Uroboros Research Facility (Uroboros Mkono)-----------------------
+Location: uIt0203 SG Ammo
+ItemId: 515 SG Ammo
+ItemNum: 20
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp21 Flamethrower
+ItemId: 289 Flamethrower
+ItemNum: 0
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt047e uIt047e
+ItemId: 1150 Diamond (Brilliant) (2-2 Mining area chest)
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0203 SG Ammo
+ItemId: 515 SG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: 100
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: 30
+SetType: 2 = Link to chest/box
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: 10
+SetType: 2 = Link to chest/box
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: 30
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0304 First Aid Spray
+ItemId: 772 First Aid Spray
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: 30
+SetType: 2 = Link to chest/box
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: 30
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0705 uIt0705
+ItemId: 1797 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0304 First Aid Spray
+ItemId: 772 First Aid Spray
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: 10
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: 100
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt020e FLM RND
+ItemId: 526 FLM
+ItemNum: 5
+SetType: 2 = Link to chest/box
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0475 uIt0475
+ItemId: 1141 Sapphire (Marquise) (5-3 Uro office)
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+
+-----------------------s309 5-3 Monarch Room (Jill & Wesker)-----------------------
+Location: uWp1a L.Hawk
+ItemId: 282 L.Hawk
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0460 uIt0460
+ItemId: 1120 Sapphire (4-1 Labyrinth statue)
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt047d uIt047d
+ItemId: 1149 Emerald (Brilliant) (5-3 Wesker)
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt047c uIt047c
+ItemId: 1148 Sapphire (Brilliant) (5-3 Wesker)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0461 uIt0461
+ItemId: 1121 Emerald (4-1 Labyrinth statue)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp08 Flash Grenade
+ItemId: 264 Flash Grenade
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0470 uIt0470
+ItemId: 1136 Heart of Africa (Wesker & Jill)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s310 5-2 Power Station-----------------------
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0310 uIt0310
+ItemId: 784 Unknown Item
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s311 5-3 Monarch Room Entrance-----------------------
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0304 First Aid Spray
+ItemId: 772 First Aid Spray
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt041c uIt041c
+ItemId: 1052 Chalice (Gold) (Labyrinth)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0209 MAG Ammo
+ItemId: 521 MAG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt047b uIt047b
+ItemId: 1147 Ruby (Brilliant) (5-3 Licker area)
+ItemNum: -1
+SetType: 5
+
+Location: uIt047a uIt047a
+ItemId: 1146 Topaz (Brilliant) (5-3 Licker area)
+ItemNum: -1
+SetType: 5
+
+Location: uIt046d uIt046d
+ItemId: 1133 Lion heart (Licker BETA)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt046d uIt046d
+ItemId: 1133 Lion heart (Licker BETA)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt046d uIt046d
+ItemId: 1133 Lion heart (Licker BETA)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0207 ACD RND
+ItemId: 519 ACD
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+
+-----------------------s312 4-2 Underground Garden-----------------------
+Location: uIt0453 uIt0453
+ItemId: 1107 Emerald (Pear)
+ItemNum: -1
+SetType: 5
+
+Location: uIt0458 uIt0458
+ItemId: 1112 Ruby (Square)
+ItemNum: -1
+SetType: 5
+
+Location: uIt0701 uIt0701
+ItemId: 1793 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0707 uIt0707
+ItemId: 1799 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0422 uIt0422
+ItemId: 1058 Jewel beetle (3-2 Before Oil field)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s313 4-1 Caves-----------------------
+Location: uIt0465 uIt0465
+ItemId: 1125 Topaz (Trilliant) (4-1)
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uWp08 Flash Grenade
+ItemId: 264 Flash Grenade
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0453 uIt0453
+ItemId: 1107 Emerald (Pear)
+ItemNum: -1
+SetType: 6
+
+Location: uIt0450 uIt0450
+ItemId: 1104 Topaz (Pear)
+ItemNum: -1
+SetType: 6
+
+Location: uIt0459 uIt0459
+ItemId: 1113 Sapphire (Square)
+ItemNum: -1
+SetType: 6
+
+Location: uIt0451 uIt0451
+ItemId: 1105 Ruby (Pear)
+ItemNum: -1
+SetType: 6
+
+Location: uIt0452 uIt0452
+ItemId: 1106 Sapphire (Pear)
+ItemNum: -1
+SetType: 6
+
+Location: uIt0452 uIt0452
+ItemId: 1106 Sapphire (Pear)
+ItemNum: -1
+SetType: 5
+
+
+-----------------------s314 5-3 Missile Area 2nd Floor (Reapers)-----------------------
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp1c H&K PSG-1
+ItemId: 284 H&K PSG-1
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0705 uIt0705
+ItemId: 1797 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt046c uIt046c
+ItemId: 1132 Power stone (Reaper)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0424 uIt0424
+ItemId: 1060 Jewel bangle (Big Man Majini)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0423 uIt0423
+ItemId: 1059 Royal necklace (5-3 Missile Area 2F)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0424 uIt0424
+ItemId: 1060 Jewel bangle (Big Man Majini)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt046c uIt046c
+ItemId: 1132 Power stone (Reaper)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt046c uIt046c
+ItemId: 1132 Power stone (Reaper)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt046c uIt046c
+ItemId: 1132 Power stone (Reaper)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt046c uIt046c
+ItemId: 1132 Power stone (Reaper)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt046c uIt046c
+ItemId: 1132 Power stone (Reaper)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0210 ELC RND
+ItemId: 528 ELC
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+
+s315 5-3 Moving Platform
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s316 5-2 Experimental Facility Passage-----------------------
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt046d uIt046d
+ItemId: 1133 Lion heart (Licker BETA)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt046d uIt046d
+ItemId: 1133 Lion heart (Licker BETA)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt046d uIt046d
+ItemId: 1133 Lion heart (Licker BETA)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt046d uIt046d
+ItemId: 1133 Lion heart (Licker BETA)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt046d uIt046d
+ItemId: 1133 Lion heart (Licker BETA)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+
+-----------------------s500 6-1 Ship Deck-----------------------
+Location: uIt0516 Crane keycard
+ItemId: 1302 Unknown Item
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0403 uIt0403
+ItemId: 1027 Gold bars
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uIt0403 uIt0403
+ItemId: 1027 Gold bars
+ItemNum: -1
+SetType: 3 = Link to suitcase
+
+Location: uIt0424 uIt0424
+ItemId: 1060 Jewel bangle (Big Man Majini)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0424 uIt0424
+ItemId: 1060 Jewel bangle (Big Man Majini)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0516 Crane keycard
+ItemId: 1302 Unknown Item
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0424 uIt0424
+ItemId: 1060 Jewel bangle (Big Man Majini)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0424 uIt0424
+ItemId: 1060 Jewel bangle (Big Man Majini)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0424 uIt0424
+ItemId: 1060 Jewel bangle (Big Man Majini)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0424 uIt0424
+ItemId: 1060 Jewel bangle (Big Man Majini)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0424 uIt0424
+ItemId: 1060 Jewel bangle (Big Man Majini)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp08 Flash Grenade
+ItemId: 264 Flash Grenade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt045e uIt045e
+ItemId: 1118 Topaz (Oval) (4-1 Labyrinth statue)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt045e uIt045e
+ItemId: 1118 Topaz (Oval) (4-1 Labyrinth statue)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0304 First Aid Spray
+ItemId: 772 First Aid Spray
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt045e uIt045e
+ItemId: 1118 Topaz (Oval) (4-1 Labyrinth statue)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+
+-----------------------s501 6-1 Ship Hold (Gatling Gun Majini)-----------------------
+Location: uIt050A uIt050A
+ItemId: 1290 Unknown Item
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0517 Tanker keycard B
+ItemId: 1303 Unknown Item
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp17 Jail Breaker
+ItemId: 279 Jail Breaker
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0203 SG Ammo
+ItemId: 515 SG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0418 uIt0418
+ItemId: 1048 Dead bride's necklace (Army with Rocket launcher 6-1)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0418 uIt0418
+ItemId: 1048 Dead bride's necklace (Army with Rocket launcher 6-1)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0418 uIt0418
+ItemId: 1048 Dead bride's necklace (Army with Rocket launcher 6-1)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uWp0a Proximity Bomb
+ItemId: 266 Proximity Bomb
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp0a Proximity Bomb
+ItemId: 266 Proximity Bomb
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s503 6-2 Main Deck-----------------------
+Location: uWp02 M92F
+ItemId: 258 M92F
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uWp02 M92F
+ItemId: 258 M92F
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+
+-----------------------s504 6-2 Bridge-----------------------
+Location: uIt051B uIt051B
+ItemId: 1307 Unknown Item
+ItemNum: 0
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0203 SG Ammo
+ItemId: 515 SG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0703 uIt0703
+ItemId: 1795 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0705 uIt0705
+ItemId: 1797 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0202 MG Ammo
+ItemId: 514 MG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0203 SG Ammo
+ItemId: 515 SG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0708 uIt0708
+ItemId: 1800 Unknown Item
+ItemNum: -1
+SetType: 4 Not pickup-able
+
+Location: uWp0a Proximity Bomb
+ItemId: 266 Proximity Bomb
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt041c uIt041c
+ItemId: 1052 Chalice (Gold) (Labyrinth)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt041c uIt041c
+ItemId: 1052 Chalice (Gold) (Labyrinth)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s505 6-3 Engine Room (Reapers and Gatling Gun Majini)-----------------------
+Location: uIt0507 Hangar keycard A
+ItemId: 1287 Unknown Item
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0508 Hangar keycard B
+ItemId: 1288 Unknown Item
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0304 First Aid Spray
+ItemId: 772 First Aid Spray
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0304 First Aid Spray
+ItemId: 772 First Aid Spray
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt046c uIt046c
+ItemId: 1132 Power stone (Reaper)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0418 uIt0418
+ItemId: 1048 Dead bride's necklace (Army with Rocket launcher 6-1)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0418 uIt0418
+ItemId: 1048 Dead bride's necklace (Army with Rocket launcher 6-1)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uWp0a Proximity Bomb
+ItemId: 266 Proximity Bomb
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp08 Flash Grenade
+ItemId: 264 Flash Grenade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0208 ICE RND
+ItemId: 520 ICE
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp0a Proximity Bomb
+ItemId: 266 Proximity Bomb
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0207 ACD RND
+ItemId: 519 ACD
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp0a Proximity Bomb
+ItemId: 266 Proximity Bomb
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0209 MAG Ammo
+ItemId: 521 MAG Ammo
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt0201 HG Ammo
+ItemId: 513 HG Ammo
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uWp08 Flash Grenade
+ItemId: 264 Flash Grenade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp08 Flash Grenade
+ItemId: 264 Flash Grenade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uWp08 Flash Grenade
+ItemId: 264 Flash Grenade
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt046c uIt046c
+ItemId: 1132 Power stone (Reaper)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+Location: uIt046c uIt046c
+ItemId: 1132 Power stone (Reaper)
+ItemNum: -1
+SetType: 1 = Drop by linked enemy
+
+
+-----------------------s506 6-3 Hangar (Wesker)-----------------------
+Location: uWp35 RPG-7 NVS (very weak compare to normal)
+ItemId: 309 RPG-7 NVS (very weak)
+ItemNum: 1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0211 RPG round (for RPG-7 NVS)
+ItemId: 529 RPG round (for RPG-7 NVS)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0211 RPG round (for RPG-7 NVS)
+ItemId: 529 RPG round (for RPG-7 NVS)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0211 RPG round (for RPG-7 NVS)
+ItemId: 529 RPG round (for RPG-7 NVS)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0211 RPG round (for RPG-7 NVS)
+ItemId: 529 RPG round (for RPG-7 NVS)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0211 RPG round (for RPG-7 NVS)
+ItemId: 529 RPG round (for RPG-7 NVS)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0211 RPG round (for RPG-7 NVS)
+ItemId: 529 RPG round (for RPG-7 NVS)
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0211 RPG round (for RPG-7 NVS)
+ItemId: 529 RPG round (for RPG-7 NVS)
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+
+-----------------------s508 6-3 Volcano (Uroboros Wesker)-----------------------
+Location: uWp06 Hand Grenade
+ItemId: 262 Hand renade
+ItemNum: 1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0301 Herb Green
+ItemId: 769 Herb Green
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt0477 uIt0477
+ItemId: 1143 Diamond (Marquise) (6-3 Uro Wesker)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+
+-----------------------s511 6-2 Bridge Deck (Uroboros Aheri)-----------------------
+Location: uWp34 L.T.D. (need trainer)
+ItemId: 308 L.T.D. (need trainer)
+ItemNum: -1
+SetType: 0 Spawn instantly on Stage Load
+
+Location: uIt020e FLM RND
+ItemId: 526 FLM
+ItemNum: 5
+SetType: 2 = Link to chest/box
+
+Location: uIt0302 Herb Red
+ItemId: 770 Herb Red
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uIt0204 Rifle Ammo
+ItemId: 516 Rifle Ammo
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+Location: uWp07 Incendiary Grenade
+ItemId: 263 Incendiary Grenade
+ItemNum: -1
+SetType: 2 = Link to chest/box
+
+

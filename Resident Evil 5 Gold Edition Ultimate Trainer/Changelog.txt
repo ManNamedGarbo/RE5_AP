@@ -1,0 +1,4 @@
+v2.0.1
+ - Fixed timer reset in "Versus to 4 Player No Mercy"
+ - Fixed timer reset in "Versus to 4 Player Enhanced No Mercy"
+ - Fixed "Reset Enhanced No Mercy / Versus Score Reset" feature(Instant game over)

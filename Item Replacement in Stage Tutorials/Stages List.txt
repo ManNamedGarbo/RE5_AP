@@ -1,0 +1,386 @@
+s100 - Chapter 1-1 (looks to be all non-violent majini) "Civilian Checkpoint"
+s100_em00 - Reynard (2 entries)
+s100_em01->em08 - Various majini defined as uEm1d or uEm1e
+s100_em13 - birds
+
+s115 - chapter 1-1, getting guns from Reynard "Back Alley 1"
+s115_em00 - birds
+s115_em01 - birds and 1 majini
+s115_em03 - Reynard
+
+s116 - Chapter 1-1 After getting a gun "Back Alley 2"
+s116_em00 - very first infected single majini
+s116_em01 - majini over fence at car & over fence 20ft away
+s116_em02 - majini over fence at car & over fence 20ft away
+s116_em03 - majini over fence at car & over fence 20ft away
+s116_em04 - majini over fence at car & over fence 20ft away
+s116_em05 - first swarm from left side
+s116_em06 - first swarm from right side
+s116_em07 - rats in the underground area
+s116_em08 - 2 chickens
+
+s114 - chapter 1-1 public assembly "Public Assembly"
+s114_em00 - megaphone majini & many more majini over the fence
+s114_em05 - majini over fence at car & over fence 20ft away
+s114_em01 - majini outside house door behind little fence near car
+s114_em04 - majini outside house door behind little fence near car
+s114_em09 - majini over far wall near the gate that blows up
+s114_em02 - executioner <changing him crashes the game>
+s114_em13 - executioner & majini jumping in building (used for cutscene?)
+s114_em14 - majini jumping behind building, when excutioner arrives
+
+-----------
+
+s114 - chapter 1-2 public assembly (no enemies)"Public Assembly"
+
+s102 - Chapter 1-2 (starts at first assist jump) "Public Urban District"
+s102_em00 - First section of 1-2 until door to Allyson
+s102_em02 - Majini in & around house with Allyson
+s102_em03 - In house, Allyson and 1 majini outside door
+s102_em04 - 4 Majini outside past the house with blonde woman (they always climb on a big container)
+s102_em06 - Enemy dragging Allyson away
+
+s117 - chapter 1-2 (tiny level where you see one BSAA soldier walk and die, and one treasure chest with gold) "Abandoned Building"
+
+s103 - chapter 1-2 Uroburos furance boss "Furnace Facility"
+
+-----------
+
+s118 - chapter 2-1, start of chapter, tiny level with jeeps "Storage Facility"
+
+s104 - Chapter 2-1 "The Bridge"
+s104_em00 - part with 3 dogs & 1 majini up high
+s104_em01 - Area before bridge with dogs & big majini
+s104_em02 - Area at bridge with truck, barrels & many majini
+s104_em05 - Underground area with 3 rats
+s104_em06 - Beginning of 2-1, first 4 majini, 1 majini after dogs
+s104_em07 - Tunnel with 5 dogs
+
+s113 - chapter 2-1 near the docks, where Kirk assist you by helicopter "The Port"
+
+s105 - Chapter 2-1 "Shanty Town"
+s105_em00 - beginning of area with roof assist jump with bats
+s105_em01 - majini that swarm near rooftop with 2 bats
+s105_em02 - next area, in the building majini
+s105_em03 - in & around house with assist jump
+s105_em04 - majini that jump fence before chainsaw guy
+s105_em05 - Chainsaw guy, near the barrels, up the stairs
+s105_em06 - majini that join chainsaw guy
+s105_em07 - not sure yet but it's 8 big flying bats?
+
+s106_em00 - chapter 2-1, just before QTE cutscene (only has crows as enemies) "Train Yard"
+
+-----------
+
+s119 - Chapter 2-2 Trainyard, the first part of it with dogs "Train Station"
+s119_em01 - 2 small dogs (second group of dogs)
+s119_em02 - 1 small dog, 2 big dogs (first group of dogs you encounter)
+s119_em03 - 3 small dogs, 1 big dog, 3 majini
+s119_em04 - birds (these spawn by themselves without ANY spawn array... how?)
+
+s107 - chapter 2-2 dark mines with lantern "The Mines" (got an unknown crash when replacing this stage)
+
+s108 - Chapter 2-2 Mountainside area with giant bat creature "Mining Area"
+s108_em01 - Last enemy is the one spawning from toilet
+s108_chp - Turret is defined in this file?
+
+
+-----------
+
+s109 - Chapter 2-3 All Majini on motorcycles & in trucks "Savanna"
+
+s111 - chapter 2-3 boss fight (based on the same map as docks level in 2-1) "The Port (Night)"
+
+-----------
+
+s200 - Chapter 3-1 "Marshlands"
+s200_em00 - area at top of map with a beast slate up high
+s200_em01 - 3 w/ spear, 1 w/ shield, 11 w/ nothing
+s200_em02 - 2 w/ spear, 2 w/ shield, 3 w/ nothing
+s200_em03 - area with crododiles, majini & beast slate
+<< causes crash if you switch crocodiles to majini,
+but there likely is a way to work this out >>
+s200_em06 - SW area of map with beast plate & 8 majini
+<< looking for file for 4 more majini here >>
+s200_em07 - center of map, chickens
+s200_em10 - majini on pirches with bombs & bows
+s200_em11 - majini on pirches with bombs & bows
+s200_em12 - majini on pirches with bombs & bows
+s200_em04 - SW area of map with beast plate & 13 majini
+<< These are the majini when you are leaving this area >>
+s200_em16 - SW area of map with beast plate & 6 majini
+<< 6 are in cut scene, 6 in game >>
+s200_em09 - seems to be different cut scenes
+s200_em14 - seems to be different cut scenes
+s200_em15 - em63 crashes
+
+s202 - Chapter 3-1 after collecting 4 beast slates "Village"
+s202_em01 - majini up high after door with 4 beast slates
+s202_em03 - giant village majini << others are currently unknown >>
+s202_em04 - village majini around giant majini
+s202_em05 - haven't found yet
+s202_em13 - 7 crows, 2 snakes
+s202_em20 - enemies after cut scene spike trap
+s202_em21 - unsure of yet
+s202_em23 - unsure of yet
+
+-----------
+
+s201 - Chapter 3-2 the beginning of it "Execution Ground"
+s201_em00 - Crocodiles that jump at you while on raft
+s201_em01 - 5 village majini midway through this first area
+s201_em03 - 8 majini at beginning of 3-2
+s201_em05 - 9 majini through beginning of 3-2
+s201_em10 - Majini feeding crocodile cut scene
+s201_em11 - 4 majini in beginning of 3-2
+s201_em13 - area before oil field, 2 snakes & 3 lights on wall
+s201_em20 - 2 majini in beginning of 3-2
+
+s207 - chapter 3-2, first part of oil refinery (outdoor) where you use valves and fight 2 chainsaw majini (Josh is in em20, not sure why) "Oil Field - Refinery"
+
+s203 - Chapter 3-2 Oil refinery (indoor), second part of it "Oil Field - Control Facility"
+s203_em00 - after meeting josh, first wave of 7 town majini
+s203_em01 - second wave of 14 town majini
+s203_em04 - after elevator, first 5 town majini
+s203_em11 - in second wave 2 big majini
+s203_em14 - the rest of these are majini in this area before dock
+s203_em15 - the rest of these are majini in this area before dock
+s203_em16 - the rest of these are majini in this area before dock
+s203_em17 - the rest of these are majini in this area before dock
+s203_em18 - the rest of these are majini in this area before dock
+
+s209 - Chapter 3-2, dock area "Oil Field - Dock"
+s209_em12 - big majini with dogs
+The rest are the majini throughout the docks
+
+-----------
+
+s204 - Chapter 3-3 (where Josh drives a small boat) "Oil Field - Drilling Facilities"
+
+s205 - chapter 3-3, irving boss fight "Patrol Boat"
+
+-----------
+
+s313 - Chapter 4-1, first level (only spiders in em files), leads to s300 "Caves"
+
+s300 - Chapter 4-1 "Ancient Village"
+s300_em06 - majini w/ shield, 1 behind him & a group of 4 waiting
+s300_em08 - first group of majini encountered
+s300_em13 - spiders
+s300_em14 - spiders on wall (harmless)
+
+s301 Chapter 4-1 around bat boss (loads s614) "Labyrinth"
+s301_em00 - Bat boss
+s301_em01 - spiders
+s301_em09 - spiders
+s301_em13 - small flying bats (harmless)
+
+-----------
+
+s302 - Chapter 4-2 "Worship Area"
+
+s303 - chapter 4-2 Area with light beams to redirect, puzzle of sort "Pyramid"
+
+s312 - chapter 4-2 Flower garden (cutscene once you moves forward) 
+
+-----------
+
+s312 - chapter 5-1 (the very start, with the flower garden) "Underground Garden"
+
+s305 - Chapter 5-1 area with lickers and animal cages "Progenitor Virus House"
+s305_em00 - The first 3 lickers you encounter (except the one which climbs on the ceiling) - The one which runs just past a glass. And the 2 which jumps through glass and attacsk you.
+s305_em01 - 10 lickers
+s305_em02 - 6 lickers
+s305_em03 - 2 lickers
+s305_em04 - 3 lickers
+s305_em10 - various animals
+
+s304 - Chapter 5-1 boss "Experimental Facility"
+
+-----------
+
+s304 - Chapter 5-2 "Experimental Facility"
+
+s310 - chapter 5-2, first encounter with majini using guns "Power Station"
+
+s307 - Chapter 5-2, level with conveyor belts and first encounter with reapers "Missile Area 1st Floor"
+s307_em05 - Reapers
+
+s316 - chapter 5-2, licker corridor (not quite sure which order this fits in) "Experimental Facility Passage"
+
+s308 - Chapter 5-2 Boss uroburos creature "Uroboros Research Facility"
+
+-----------
+
+s308 - Chapter 5-3, level with boss (different state) "Uroboros Research Facility"
+
+s314 - chapter 5-3, catwalks with reapers, gun majini, and majini with rocket launchers. psg-1 rifle is here. one platform which Sheva and Chris has to traverse "Missile Area 2nd Floor"
+
+s315 - chapter 5-3, large circular elevator with gun majini firing at you "Moving Platform"
+
+s311 - chapter 5-3, area with tons of lickers and the bridge you need to lower (level just before the boss fight) "Monarch Room Entrance"
+
+s309 - Chapter 5-3 Boss wesker and jill "Monarch Room"
+s309_em00 - Jill (first bossfight)
+s309_em01 - Jill (second bossfight)
+s309_em02 - Wesker (he's in the file 3 times, not sure why. for cutscenes maybe?)
+
+-----------
+
+s500 - Chapter 6-1 on boat "Ship Deck"
+s500_em00 - army majini
+s500_em01 - army majini (enemies who spawn at the start)
+  1st - closest to the player spawn
+s500_em02 - army majini
+s500_em03 - dogs
+s500_em04 - dogs
+s500_em05 - dogs
+s500_em06 - dogs
+s500_em07 - 2 big man majini
+s500_em08 - army majini
+s500_em10 - 1 army majini
+
+s501 - chapter 6-1, first encounter with a gatling gun majini "Ship Hold"
+
+-----------
+
+s503 - chapter 6-2, start of chapter, no em files "Main Deck"
+
+s504 - chapter 6-2, all army majini, only 1 em file, run through ship corridors, level just before the boss fight (also includes the bridge?) "Bridge"
+
+s511 - chapter 6-2, boss fight "Bridge Deck"
+
+-----------
+
+s511 - chapter 6-3, boss fight area (different state) "Bridge Deck"
+
+s512 - chapter 6-3, bridge "Bridge"
+
+s505 - chapter 6-3, large fight with reapers, JJs and lots of gun majini "Engine Room"
+
+s506 - Chapter 6-3 Wesker fight with coat, outdoors on the ship "Hangar"
+
+s508 - chapter 6-3 Uruburos Wesker fight, vulcano level "Vulcano"
+
+-----------
+
+Mercenaries
+s400 - Public Assembly
+s401 - Mines
+s402 - Village
+s403 - Ancient Ruins
+s404 - Experimental Facility
+s405 - Missile Area
+s406 - Ship Deck
+s407 - Prison
+
+-----------
+
+Cutscene stages
+s600 - I got Spencer mansion (library) when loading it. No collision data. Used for flashback cutscenes?
+s601 - Intro (runs the 2 part prerendered intro) (loads to s100)
+s602 - Doesn't load properly. Leftover of a realtime intro? (loads to s100)
+s606 - Intro cutscene to 3-1 (loads s200)
+s607 - Intro to Irving bossfight in 3-3? (loads s205)
+s609 - 5-3 Ending (couldn't find a load for next stage)
+s610 - QTE fight in airplane during 6-3 (loads s508)
+s611 - Final cutscene in the game? (couldn't find a load for next stage)
+s612 - Prelude to first Wesker bossfight in 6-3? (loads s506)
+s613 - ? (couldn't find a load for next stage)
+s614 - ? (couldn't find a load for next stage)
+s615 - ? (couldn't find a load for next stage)
+
+-----------
+
+Benchmark
+s800 - chapter 1-1 public assembly
+s801 - chapter 2-1 storage facility (first area with dogs)
+s802 - chapter 3-2 docks
+s804 - chapter 1-1 Public assembly (fixed benchmark)
+
+-----------
+
+DLC stages (360/PS3 only)
+s700 - LIN 1st stage (mansion)
+s701 - LIN 2nd stage
+s702 - DE 1st stage
+s703 - DE 2nd stage (huge area)
+s704 - DE 3rd stage (last stand)
+s705 - LIN 3rd stage (maze)
+s706 - LIN 4th stage (wesker)
+
+-----------
+
+Cutscenes
+ev114_00 - chapter 1-1 Public Assembly cutscene
+
+ev304_20 - chapter 5-1 U-8 Repelled
+pawn\evm\evm5704\model\ - Monitor which Excella appears on
+pawn\om\om0901\model\ - Other monitors
+
+ev610_90 - chapter 6-3 Skyhigh Skirmish
+event\s507\ev10\ev10_04\map\play_back* - Pictures for Chris's flashback
+
+ev615_00 - chapter 2-1 Rendezvous
+pawn\evm\evm5700\model\ - PDA which Chris uses (shows picture of Jill)
+
+(cutscene list by realaxmax)
+ev100_02.arc : stage 1-1 Magic Act
+ev102_00.arc : stage 1-2 A Cry for Help
+ev102_10.arc : stage 1-2 Damsel in Distress
+ev103_20.arc : stage 1-2 Unidentified Threat
+ev105_20.arc : stage 2-1 The Chainsaw Majini-1
+ev105_21.arc : stage 2-1 The Chainsaw Majini-2
+ev105_22.arc : stage 2-1 The Chainsaw Majini-3
+ev106_90.arc : stage 2-1 To the Crash Site!
+ev108_00.arc : stage 2-2 Irving's Great Escape
+ev108_10.arc : stage 2-2 Terror from Above
+ev108_20.arc : stage 2-2 Roll Out!
+ev109_90.arc : stage 2-3 Shaking Off the Makini
+ev111_00.arc : stage 2-3 Grand Resurgence
+ev111_10.arc : stage 2-3 Delta Team's Distress
+ev111_20.arc : stage 2-3 The Wetlands
+ev114_00.arc : stage 1-1 Hospitality
+ev114_20.arc : stage 1-1 Guardian Angel
+ev114_50.arc : stage 2-1 <Majini suround>
+ev115_00.arc : stage 1-1 The Butcher (Part 1)
+ev115_10.arc : stage 1-1 The Butcher (Part 2)
+ev116_00.arc : stage 1-1 First Encounter
+ev117_10.arc : stage 1-2 A piece of the Puzzle
+ev118_00.arc : stage 1-2 The Storage Facility
+ev203_00.arc : stage 3-2 Josh to the Rescue
+ev203_10.arc : stage 3-2 Splitting UP
+ev204_00.arc : stage 3-3 Boat Majini Appear
+ev205_20.arc : stage 3-3 A New Clue
+ev209_20.arc : stage 3-2 Irving's Web
+ev209_30.arc : stage 3-2 <Josh at boat waiting>
+ev209_40.arc : stage 3-3 The Oil Field Aflame
+ev300_30.arc : stage 3-1 <Tribal Majini jump out lake>
+ev300_31.arc : stage 4-1 The Bridge Collapses
+ev304_00.arc : stage 5-1 Experimental Facility
+ev304_20.arc : stage 5-1 U-8 Repelled
+ev304_90.arc : stage 5-2 U-8 Attacks
+ev308_00.arc = stage 5-2 Uroboros
+ev309_00.arc = stage 5-3 Two on Two
+ev309_10.arc = stage 5-3 Old friends, New Enemies
+ev309_30.arc = stage 5-3 Favor for a Friend
+ev310_00.arc = stage 5-2 Monitored Communications
+ev312_00.arc = stage 5-1 Underground Garden
+ev313_00.arc = stage 4-1 The Docks
+ev501_10.arc = stage 6-1 Medicine
+ev503_00.arc = stage 6-2 A New Nightmare Begins
+ev506_10.arc = stage 6-3 Wesker's Vulnerability
+ev508_00.arc = stage 6-3 The Final Curtain
+ev508_90.arc = stage 6-3 The Fall of Wesker
+ev512_00.arc = stage 6-3 A Message from Jill
+ev601_00.arc = stage 1-1 Welcome to Africa 1
+ev601_10.arc = stage 1-1 Welcome to Africa 2
+ev606_00.arc = stage 3-1 Shadow of the Past
+ev607_00.arc = stage 3-3 The Patrol Boat
+ev609_00.arc = stage 5-3 The Tanker
+ev610_90.arc = stage 6-3 Sky-high Skirmish
+ev611_00.arc = stage 6-3 Homeward Bound!
+ev612_00.arc = stage 6-3 Rematch
+ev613_00.arc = stage 6-1 Dream of a Madman
+ev614_00.arc = stage 4-1 Wesker's Return
+ev615_00.arc = stage 2-1 Rendezvous

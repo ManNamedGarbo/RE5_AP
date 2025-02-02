@@ -1,0 +1,101 @@
+CHAPTER 1-1:
+1-1 Civilian Checkpoint - S100
+1-1 Back Alley 1/2 - S115
+1-1 Back Alley 1/2 (first action) - S116
+1-1 Public Assembly (Executioner) - S114
+
+
+CHAPTER 1-2:
+1-2 Public Assembly - (S114?)
+1-2 Urban District - S102
+1-2 Abandoned Building - S117
+1-2 Furnace Facility (Uroboros) - S103
+
+
+CHAPTER 2-1:
+2-1 Storage Facility - S118
+2-1 The Bridge - S104
+2-1 The Port - S113
+2-1 Shanty Town (Chainsaw Majini) - S105
+2-1 Train Yard - S106
+
+
+CHAPTER 2-2::
+2-2 Train Station - S119
+2-2 The Mines - S107
+2-2 Mining Area (Popokarimu) - S108
+
+
+CHAPTER 2-3:
+2-3 Savanna - S109
+2-3 The Port (Night) (Ndesu) - S111
+
+
+CHAPTER 3-1:
+3-1 Marshlands - S200
+3-1 Village (Giant Majini x2) - S202
+
+
+CHAPTER 3-2:
+3-2 Execution Ground - S201
+3-2 Oil Field - Refinery (Chainsaw Majini x2) - S207
+3-2 Oil Field - Control Facility (Chainsaw Majini) - S203
+3-2 Oil Field - Dock - S209
+
+
+CHAPTER 3-3:
+3-3 Oil Field - Drilling Facilities - S204
+3-3 Patrol Boat (Irving) - S205
+
+
+CHAPTER 4-1:
+4-1 Caves - S313
+4-1 Ancient Village - S300
+4-1 Labyrinth (Popokarimu) - S301
+
+
+CHAPTER 4-2:
+4-2 Worship Area - S302
+4-2 Pyramid - S303
+4-2 Underground Garden - (S312? - no enemies)
+
+
+CHAPTER 5-1:
+5-1 Underground Garden - (S312?)
+5-1 Progenitor Virus House - S305
+5-1 Experimental Facility (U-8) - S304
+
+
+CHAPTER 5-2:
+5-2 Experimental Facility - (S304?)
+5-2 Power Station - S310
+5-2 Experimental Facility Passage - S316
+5-2 Missile Area 1st Floor (Reaper) - S307
+5-2 Uroboros Research Facility (Uroboros Mkono) - S308
+
+
+CHAPTER 5-3:
+5-3 Uroboros Research Facility - (S308?)
+5-3 Missile Area 2nd Floor (Reapers) - S314
+5-3 Moving Platform - S315
+5-3 Monarch Room Entrance - S311
+5-3 Monarch Room (Jill & Wesker) - S309
+
+
+CHAPTER 6-1:
+6-1 Ship Deck - S500
+6-1 Ship Hold (Gatling Gun Majini) - S501
+
+
+CHAPTER 6-2:
+6-2 Main Deck - (S503? - no enemies)
+6-2 Bridge - S504
+6-2 Bridge Deck (Uroboros Aheri) - S511
+
+
+CHAPTER 6-3:
+6-3 Bridge Deck (Uroboros Aheri - dead) - (S511?)
+6-3 Bridge (Uroboros Aheri - dead) - S512
+6-3 Engine Room (Reapers and Gatling Gun Majini) - S505
+6-3 Hangar (Wesker) - S506
+6-3 Volcano (Uroboros Wesker) - S508
