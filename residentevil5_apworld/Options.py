@@ -40,6 +40,14 @@ class IncludeTreasures(Toggle):
     """
     display_name = "Include Treasures"
 
+#There is currently no reasonable way to randomize BSAA emblems with how I randomize the game. This will require finding memory addresses and offsets for these regions, then figuring out how to grant an item based on that.
+
+#class IncludeEmblems(Toggle):
+#    """
+#    If enabled, BSAA Emblems are shuffled into the pool. This includes adds 30 locations to the pool, if not filled, this will generate filler.
+#    """
+#    display_name = "Include BSAA Emblems"
+
 class ExcludeDriving(Toggle):
     """
     If enabled, this will disable Chapter 2-3 Savanna from appearing in the randomizer.
@@ -50,7 +58,7 @@ class ExcludeDriving(Toggle):
 class TrapChance(Range):
     """
     Determines the chance for any junk item to become a trap.
-    Set it to 0 for no traps.
+    Set it to 0 for no traps, 100 would make all filler items Traps.
     """
     display_name = "Include Traps"
     range_start = 0
@@ -80,6 +88,7 @@ class SiphonTrapWeight(Range):
 
 @dataclass
 class Re5Options(PerGameCommonOptions):
+# add IncludeEmblems whenever BSAA Emblems are able to be randomized in the future.
     StartingChapter:                StartingChapter
     IncludeTreasures:               IncludeTreasures
     ExcludeDriving:                 ExcludeDriving
@@ -88,11 +97,13 @@ class Re5Options(PerGameCommonOptions):
     SiphonTrapWeight:               SiphonTrapWeight
 
 Re5_option_groups: Dict[str, List[Any]] = {
+# add IncludeEmblems whenever BSAA Emblems are able to be randomized in the future.
     "General Options": [StartingChapter, IncludeTreasures, ExcludeDriving],
     "Trap Options": [TrapChance, DiscardTrapWeight, SiphonTrapWeight]
 }
 
 slot_data_options: List[str] = {
+# add IncludeEmblems whenever BSAA Emblems are able to be randomized in the future.
     "StartingChapter",
     "IncludeTreasures",
     "ExcludeDriving",
