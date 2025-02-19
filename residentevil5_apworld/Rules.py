@@ -4,6 +4,7 @@ from typing import Dict, TYPE_CHECKING
 from .Regions import Chapters
 from .Items import ItemDict, item_table, group_table, RE5Type
 from .Locations import LocationDict, EventDict, location_table
+from .Options import Re5Options, slot_data_options, Re5_option_groups
 
 if TYPE_CHECKING:
     from . import RE5World
@@ -53,11 +54,6 @@ def set_chapter_rules(player, multiworld):
 	    state.has("Chapter 2-2", player, 1))
     set_rule(multiworld.get_entrance("c22_mines -> c22_popokarimu", player), lambda state:
 	    state.has("Chapter 2-2", player, 1))
-   # Chapter 2-3
-       set_rule(multiworld.get_entrance("Menu -> c23_car", player), lambda state:
-	    state.has("Chapter 2-3", player, 1))
-    set_rule(multiworld.get_entrance("c23_car -> c23_ndesu", player), lambda state:
-	    state.has("Chapter 2-3", player, 1))
    # Chapter 3-1
     set_rule(multiworld.get_entrance("Menu -> c31_marsh", player), lambda state:
 	    state.has("Chapter 3-1", player, 1))
@@ -169,9 +165,27 @@ def set_chapter_rules(player, multiworld):
         state.has("Old Building Key", player, 1))
     set_rule(multiworld.get_location("1-2 Ivory Relief from Allyson", player), lambda state:
         state.has("weapons", player, 1))
-    set_rule(multiworld.get_location("1-2 HG Ammo Case 1", player), lambda state:
-        state.has("Furnace Key", player, 1))
-    set_rule(multiworld.get_location("1-2 HG Ammo Case 2", player), lambda state:
-        state.has("Furnace Key", player, 1))
-    set_rule(multiworld.get_location("1-2 HG Ammo Case 3", player), lambda state:
-        state.has("Furnace Key", player, 1))
+    set_rule(multiworld.get_location("2-1 Guard's Treasure Chest 1", player), lambda state:
+        state.has("Guard's Key", player, 1))
+    set_rule(multiworld.get_location("2-1 Guard's Treasure Chest 2", player), lambda state:
+        state.has("Guard's Key", player, 1))
+    set_rule(multiworld.get_location("2-1 Guard's Treasure Chest 3", player), lambda state:
+        state.has("Guard's Key", player, 1))
+    set_rule(multiworld.get_location("2-1 Guard's Treasure Chest 4", player), lambda state:
+        state.has("Guard's Key", player, 1))
+        
+def set_driving_rules(player, multiworld):
+# Adds the on-rails driving sequence 2-3, assuming the player wishes to do so.
+# Note: This adds no items. Just a level and a boss with no locations.
+    set_rule(multiworld.get_entrance("Menu -> c23_car", player), lambda state:
+	    state.has("Chapter 2-3", player, 1))
+    set_rule(multiworld.get_entrance("c23_car -> c23_ndesu", player), lambda state:
+	    state.has("Chapter 2-3", player, 1))
+        
+def set_rules(re5_world: "RE5World", include_driving):
+    player = re5_world.player
+    multiworld = re5_world.multiworld
+
+    set_chapter_rules(player, multiworld)
+    if ExcludeDriving[0]:
+        set_driving_rules(player, multiworld)

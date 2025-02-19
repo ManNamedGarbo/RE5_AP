@@ -1,5 +1,5 @@
 from typing import TypedDict, List
-from .Regions import Stages
+from .Regions import Chapters
 
 
 class LocationDict(TypedDict):

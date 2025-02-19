@@ -1,4 +1,4 @@
-from typing import List, Dict, Any
+from typing import List, Dict, Any, TYPE_CHECKING
 from dataclasses import dataclass
 from worlds.AutoWorld import PerGameCommonOptions
 from Options import Choice, OptionGroup, Toggle, OptionSet, Range
@@ -13,6 +13,8 @@ def create_option_groups() -> List[OptionGroup]:
 class StartingChapter(Choice):
     """
     Determines which chapter you will start with in Chapter Select or upon starting a new game cycle.
+    Choosing to start with Chapter 2-3 will result in instant BK and will fail solo generation.
+    NOTE THIS OPTION CURRENTLY DOES NOT WORK. DO NOT CHANGE THE VALUE FROM CHAPTER 1-1
     """
     display_name = "Starting Chapter"
     option_chapter1_1 = 1
@@ -48,12 +50,20 @@ class IncludeTreasures(Toggle):
 #    """
 #    display_name = "Include BSAA Emblems"
 
-class ExcludeDriving(Toggle):
+class ExcludeDriving(Choice):
     """
-    If enabled, this will disable Chapter 2-3 Savanna from appearing in the randomizer.
-    Disabling this may require you to play a level that has no checks besides the level completion itself.
+    Choose if you wish to disable Chapter 2-3 Savanna from appearing in the randomizer.
+    Note that no checks are in this level besides level completion, which currently isn't implemented anyways
+    
+    Include Driving will put Chapter 2-3 in the item pool.
+    Exclude Driving will remove Chapter 2-3 from the item pool.
+    
+    DO NOT CHANGE THIS SETTING FOR NOW, IT WILL DO NOTHING. IT IS ALWAYS INCLUDED FOR THE TIME BEING.
     """
     display_name = "Exclude Driving Level"
+    option_includedriving = 0
+    option_excludedriving = 1
+    default = 1
 
 class TrapChance(Range):
     """
@@ -89,12 +99,12 @@ class SiphonTrapWeight(Range):
 @dataclass
 class Re5Options(PerGameCommonOptions):
 # add IncludeEmblems whenever BSAA Emblems are able to be randomized in the future.
-    StartingChapter:                StartingChapter
-    IncludeTreasures:               IncludeTreasures
-    ExcludeDriving:                 ExcludeDriving
-    TrapChance:                     TrapChance
-    DiscardTrapWeight:              DiscardTrapWeight
-    SiphonTrapWeight:               SiphonTrapWeight
+    StartingChapter:     StartingChapter
+    IncludeTreasures:    IncludeTreasures
+    ExcludeDriving:      ExcludeDriving
+    TrapChance:          TrapChance
+    DiscardTrapWeight:   DiscardTrapWeight
+    SiphonTrapWeight:    SiphonTrapWeight
 
 Re5_option_groups: Dict[str, List[Any]] = {
 # add IncludeEmblems whenever BSAA Emblems are able to be randomized in the future.
