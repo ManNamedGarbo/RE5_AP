@@ -298,3 +298,12 @@ location_table: List[LocationDict] = [
          'chapter': c21_shanty,
          'arc_file': "s105.arc",
          'unique_id': "105_976_2"},
+
+    event_table: List[EventDict] = [
+#    {'name': "Complete Chapter 1-1 Public Assembly",
+#        'chapter': Chapters.c11_assmebly,
+#        'item': "Chapter 1-1 Completed"},
+    {'name': "Defeat Wesker",
+        'stage': Chapters.c63_volcano,
+        'item': "Victory"},
+]
