@@ -11,7 +11,7 @@ from .Items import RE5Type, ItemDict, item_table, group_table
 from .Locations import LocationDict, EventDict, location_table
 from .Regions import Chapters, region_exits
 from .Options import create_option_groups, Re5Options, Re5_option_groups, slot_data_options
-from .Rules import set_rules, set_driving_rules, set_chapter_rules, rules, 
+from .Rules import set_rules, set_driving_rules, set_chapter_rules, rules
 
 class RE5Web(WebWorld):
     theme = "ocean"
