@@ -21,7 +21,6 @@ class RE5Type(Enum):
 
 class ItemDict(TypedDict, total=False):
     name: str
-    count: int
     type: RE5Type
     xml_id: int
 
@@ -31,6 +30,9 @@ base_id = 3618000
 
 item_table: List[ItemDict] = [
     # Weapons
+    {'name': "Victory",
+        'type': RE5Type.Key,
+        'xml_id': 006900},
     {'name': "Beretta M92F",
         'type': RE5Type.Handgun,
         'xml_id': 258},
