@@ -173,6 +173,8 @@ def set_chapter_rules(player, multiworld):
         state.has("Guard's Key", player, 1))
     set_rule(multiworld.get_location("2-1 Guard's Treasure Chest 4", player), lambda state:
         state.has("Guard's Key", player, 1))
+
+    world.multiworld.completion_condition[player] = lambda state: state.has("Victory", player)
         
 def set_driving_rules(player, multiworld):
 # Adds the on-rails driving sequence 2-3, assuming the player wishes to do so.
