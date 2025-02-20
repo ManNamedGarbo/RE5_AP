@@ -160,6 +160,23 @@ class RE5World(World):
 #        filename = f"{self.multiworld.get_out_file_name_base(self.player)}.json"
 #       with open(os.path.join(output_directory, filename), 'wb') as f:
 #           f.write(json.dumps(data))   
+
+def client_data(self):
+    return {
+        "chapter": location_table(self.chapter)
+        "arc_file": location_table(self.arc_file)
+        "unique_id": location_table(self.unique_id)
+        "xml_id": item_table(self.xml_id)
+     }
+
+def generate_output(self, output_directory: str):
+  # pull the data from our dict
+    data = self.client_data()
+  # create the json file named after the player slot
+    filename = f"{self.multiworld.get_out_file_name_base(self.player)}.json"
+    with open(os.path.join(output_directory, filename), 'wb') as f:
+  # put all that sweet sweet data into the file and save it please
+        f.write(bytes(json.dumps(data)))
         
 class Re5Item(Item):
     game: str = "Resident Evil 5"
