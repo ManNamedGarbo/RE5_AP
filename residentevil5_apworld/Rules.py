@@ -1,157 +1,146 @@
-from worlds.generic.Rules import set_rule
+from worlds.generic.Rules import set_rule, add_rule
 from BaseClasses import CollectionState
 from typing import Dict, TYPE_CHECKING
 from .Regions import Chapters
 from .Items import ItemDict, item_table, group_table, RE5Type
 from .Locations import LocationDict, EventDict, location_table
-from .Options import Re5Options, slot_data_options, Re5_option_groups
+from .Options import RE5Options, slot_data_options, RE5_option_groups
 
 if TYPE_CHECKING:
     from . import RE5World
-
-# Making sure the world can draw data from the proper location
-def rules(RE5World):
-    multiworld = RE5World.multiworld
-    player = RE5World.player
-
+    
 # Region connection rules, what region goes to where, and what you need to do so.
-def set_chapter_rules(player, multiworld):
+def set_chapter_rules(player, multiworld, world: "RE5World"):
    # Chapter 1-1
-    set_rule(multiworld.get_entrance("Menu -> c11_checkpoint", player), lambda state:
-	    state.has("Chapter 1-1", player, 1))
-    set_rule(multiworld.get_entrance("c11_checkpoint -> c11_alley1", player), lambda state:
-	    state.has("Chapter 1-1", player, 1))
-    set_rule(multiworld.get_entrance("c11_alley1 -> c11_alley2", player), lambda state:
-	    state.has("Chapter 1-1", player, 1))
-    set_rule(multiworld.get_entrance("c11_alley2 -> c11_assembly", player), lambda state:
-	    state.has("Chapter 1-1", player, 1))
+   # Not required, player starts with 1-1 and level has no keys or otherwise outstanding requirements.
    # Chapter 1-2
-    set_rule(multiworld.get_entrance("Menu -> c12_assembly", player), lambda state:
+    set_rule(multiworld.get_entrance("Menu -> 1-2 Public Assembly", player), lambda state:
 	    state.has("Chapter 1-2", player, 1))
-    set_rule(multiworld.get_entrance("c12_assembly -> c12_urban", player), lambda state:
+    set_rule(multiworld.get_entrance("1-2 Public Assembly -> 1-2 Urban District", player), lambda state:
 	    state.has("Chapter 1-2", player, 1))
-    set_rule(multiworld.get_entrance("c12_urban -> c12_abandoned", player), lambda state:
+    set_rule(multiworld.get_entrance("1-2 Urban District -> 1-2 Abandoned Building", player), lambda state:
 	    state.has("Chapter 1-2", player, 1))
-    set_rule(multiworld.get_entrance("c12_abandoned -> c12_furnace", player), lambda state:
+    set_rule(multiworld.get_entrance("1-2 Abandoned Building -> 1-2 Furnace Facility", player), lambda state:
 	    state.has("Chapter 1-2", player, 1))
    # Chapter 2-1
-    set_rule(multiworld.get_entrance("Menu -> c21_storage", player), lambda state:
+    set_rule(multiworld.get_entrance("Menu -> 2-1 Storage Facility", player), lambda state:
 	    state.has("Chapter 2-1", player, 1))
-    set_rule(multiworld.get_entrance("c21_storage -> c21_bridge", player), lambda state:
+    set_rule(multiworld.get_entrance("2-1 Storage Facility -> 2-1 The Bridge", player), lambda state:
 	    state.has("Chapter 2-1", player, 1))
-    set_rule(multiworld.get_entrance("c21_bridge -> c21_port", player), lambda state:
+    set_rule(multiworld.get_entrance("2-1 The Bridge -> 2-1 The Port", player), lambda state:
 	   (state.has("Chapter 2-1", player, 1) and
         state.has("Port Key", player, 1)))
-    set_rule(multiworld.get_entrance("c21_port -> c21_shanty", player), lambda state:
+    set_rule(multiworld.get_entrance("2-1 The Port -> 2-1 Shanty Town", player), lambda state:
 	   (state.has("Chapter 2-1", player, 1) and
         state.has("Guard's Key", player, 1)))
-    set_rule(multiworld.get_entrance("c21_shanty -> c21_train", player), lambda state:
+    set_rule(multiworld.get_entrance("2-1 Shanty Town -> 2-1 Train Yard", player), lambda state:
 	    state.has("Chapter 2-1", player, 1))
    # Chapter 2-2
-    set_rule(multiworld.get_entrance("Menu -> c22_station", player), lambda state:
+    set_rule(multiworld.get_entrance("Menu -> 2-2 Train Station", player), lambda state:
 	    state.has("Chapter 2-2", player, 1))
-    set_rule(multiworld.get_entrance("c22_station -> c22_mines", player), lambda state:
+    set_rule(multiworld.get_entrance("2-2 Train Station -> 2-2 The Mines", player), lambda state:
 	    state.has("Chapter 2-2", player, 1))
-    set_rule(multiworld.get_entrance("c22_mines -> c22_popokarimu", player), lambda state:
+    set_rule(multiworld.get_entrance("2-2 The Mines -> 2-2 Mining Area", player), lambda state:
 	    state.has("Chapter 2-2", player, 1))
    # Chapter 3-1
-    set_rule(multiworld.get_entrance("Menu -> c31_marsh", player), lambda state:
+    set_rule(multiworld.get_entrance("Menu -> 3-1 Marshlands", player), lambda state:
 	    state.has("Chapter 3-1", player, 1))
-    set_rule(multiworld.get_entrance("c31_marsh -> c31_village", player), lambda state:
+    set_rule(multiworld.get_entrance("3-1 Marshlands -> 3-1 Village", player), lambda state:
 	   (state.has("Chapter 3-1", player, 1) and
         state.has("Beast Slate", player, 1) and
         state.has("Raptor Slate", player, 1) and
         state.has("Warrior Slate", player, 1) and
         state.has("Shaman Slate", player, 1)))
    # Chapter 3-2
-    set_rule(multiworld.get_entrance("Menu -> c32_exegrounds", player), lambda state:
+    set_rule(multiworld.get_entrance("Menu -> 3-2 Execution Ground", player), lambda state:
 	    state.has("Chapter 3-2", player, 1))
-    set_rule(multiworld.get_entrance("c32_exegrounds -> c32_refinery", player), lambda state:
+    set_rule(multiworld.get_entrance("3-2 Execution Ground -> 3-2 Oil Field Refinery", player), lambda state:
 	    state.has("Chapter 3-2", player, 1))
-    set_rule(multiworld.get_entrance("c32_refinery -> c32_control", player), lambda state:
+    set_rule(multiworld.get_entrance("3-2 Oil Field Refinery -> 3-2 Oil Field Control Facility", player), lambda state:
 	    state.has("Chapter 3-2", player, 1))
-    set_rule(multiworld.get_entrance("c32_control -> c32_docks", player), lambda state:
+    set_rule(multiworld.get_entrance("3-2 Oil Field Control Facility -> 3-2 Oil Field Dock", player), lambda state:
 	    state.has("Chapter 3-2", player, 1))
    # Chapter 3-3
-    set_rule(multiworld.get_entrance("Menu -> c33_oilboat", player), lambda state:
+    set_rule(multiworld.get_entrance("Menu -> 3-3 Oil Field - Drilling Facilities", player), lambda state:
 	    state.has("Chapter 3-3", player, 1))
-    set_rule(multiworld.get_entrance("c33_oilboat -> c33_irving", player), lambda state:
+    set_rule(multiworld.get_entrance("3-3 Oil Field - Drilling Facilities -> 3-3 Irving's Patrol Boat", player), lambda state:
 	    state.has("Chapter 3-3", player, 1))
    # Chapter 4-1
-    set_rule(multiworld.get_entrance("Menu -> c41_caves", player), lambda state:
+    set_rule(multiworld.get_entrance("Menu -> 4-1 Caves", player), lambda state:
 	    state.has("Chapter 4-1", player, 1))
-    set_rule(multiworld.get_entrance("c41_caves -> c41_ancient", player), lambda state:
+    set_rule(multiworld.get_entrance("4-1 Caves -> 4-1 Ancient Village", player), lambda state:
 	    state.has("Chapter 4-1", player, 1))
-    set_rule(multiworld.get_entrance("c41_ancient -> c41_labyrinth", player), lambda state:
+    set_rule(multiworld.get_entrance("4-1 Ancient Village -> 4-1 Labyrinth", player), lambda state:
 	    state.has("Chapter 4-1", player, 1))
    # Chapter 4-2
-    set_rule(multiworld.get_entrance("Menu -> c42_worship", player), lambda state:
+    set_rule(multiworld.get_entrance("Menu -> 4-2 Worship Area", player), lambda state:
 	    state.has("Chapter 4-2", player, 1))
-    set_rule(multiworld.get_entrance("c42_worship -> c42_pyramid", player), lambda state:
+    set_rule(multiworld.get_entrance("4-2 Worship Area -> 4-2 Pyramid", player), lambda state:
 	    (state.has("Chapter 4-2", player, 1) and
          state.has("Earth Emblem", player, 1) and
          state.has("Sea Emblem", player, 1) and
          state.has("Sky Emblem", player, 1)))
-    set_rule(multiworld.get_entrance("c42_pyramid -> c42_garden", player), lambda state:
+    set_rule(multiworld.get_entrance("4-2 Pyramid -> 4-2 Underground Garden", player), lambda state:
 	    state.has("Chapter 4-2", player, 1))
    # Chapter 5-1
-    set_rule(multiworld.get_entrance("Menu -> c51_garden", player), lambda state:
+    set_rule(multiworld.get_entrance("Menu -> 5-1 Underground Garden", player), lambda state:
 	    state.has("Chapter 5-1", player, 1))
-    set_rule(multiworld.get_entrance("c51_garden -> c51_progenitor", player), lambda state:
+    set_rule(multiworld.get_entrance("5-1 Underground Garden -> 5-1 Progenitor Virus House", player), lambda state:
 	    state.has("Chapter 5-1", player, 1))
-    set_rule(multiworld.get_entrance("c51_progenitor -> c51_u8", player), lambda state:
+    set_rule(multiworld.get_entrance("5-1 Progenitor Virus House -> 5-1 Experimental Facility U-8", player), lambda state:
 	    state.has("Chapter 5-1", player, 1))
    # Chapter 5-2
-    set_rule(multiworld.get_entrance("Menu -> c52_experiment", player), lambda state:
+    set_rule(multiworld.get_entrance("Menu -> 5-2 Experimental Facility", player), lambda state:
 	    state.has("Chapter 5-2", player, 1))
-    set_rule(multiworld.get_entrance("c52_experiment -> c52_power", player), lambda state:
+    set_rule(multiworld.get_entrance("5-2 Experimental Facility -> 5-2 Power Station", player), lambda state:
 	    state.has("Chapter 5-2", player, 1))
-    set_rule(multiworld.get_entrance("c52_power -> c52_facpassage", player), lambda state:
+    set_rule(multiworld.get_entrance("5-2 Power Station -> 5-2 Experimental Facility Passage", player), lambda state:
 	    state.has("Chapter 5-2", player, 1))
-    set_rule(multiworld.get_entrance("c52_facpassage -> c52_missile1", player), lambda state:
+    set_rule(multiworld.get_entrance("5-2 Experimental Facility Passage -> 5-2 Missile Area 1st Floor", player), lambda state:
 	    state.has("Chapter 5-2", player, 1))
-    set_rule(multiworld.get_entrance("c52_missile1 -> c52_mkono", player), lambda state:
+    set_rule(multiworld.get_entrance("5-2 Missile Area 1st Floor -> 5-2 Uroboros Research Facility", player), lambda state:
 	    state.has("Chapter 5-2", player, 1))
    # Chapter 5-3
-    set_rule(multiworld.get_entrance("Menu -> c53_uroboros", player), lambda state:
+    set_rule(multiworld.get_entrance("Menu -> 5-3 Uroboros Research Facility", player), lambda state:
 	    state.has("Chapter 5-3", player, 1))
-    set_rule(multiworld.get_entrance("c53_uroboros -> c53_missile2", player), lambda state:
+    set_rule(multiworld.get_entrance("5-3 Uroboros Research Facility -> 5-3 Missile Area 2nd Floor", player), lambda state:
 	    state.has("Chapter 5-3", player, 1))
-    set_rule(multiworld.get_entrance("c53_missile2 -> c53_platform", player), lambda state:
+    set_rule(multiworld.get_entrance("5-3 Missile Area 2nd Floor -> 5-3 Moving Platform", player), lambda state:
 	    state.has("Chapter 5-3", player, 1))
-    set_rule(multiworld.get_entrance("c53_platform -> c53_monarch", player), lambda state:
+    set_rule(multiworld.get_entrance("5-3 Moving Platform -> 5-3 Monarch Room Entrance", player), lambda state:
 	    state.has("Chapter 5-3", player, 1))
-    set_rule(multiworld.get_entrance("c53_monarch -> c53_jill", player), lambda state:
+    set_rule(multiworld.get_entrance("5-3 Monarch Room Entrance -> 5-3 Monarch Room Jill & Wesker", player), lambda state:
 	    state.has("Chapter 5-3", player, 1))
    # Chapter 6-1
-    set_rule(multiworld.get_entrance("Menu -> c61_deck", player), lambda state:
+    set_rule(multiworld.get_entrance("Menu -> 6-1 Ship Deck", player), lambda state:
 	    state.has("Chapter 6-1", player, 1))
-    set_rule(multiworld.get_entrance("c61_deck -> c61_hold", player), lambda state:
+    set_rule(multiworld.get_entrance("6-1 Ship Deck -> 6-1 Ship Hold", player), lambda state:
 	    (state.has("Chapter 6-1", player, 1) and
          state.has("Crane Keycard", player, 1) and
          state.has("Tanker Keycard A", player, 1) and
          state.has("Tanker Keycard B", player, 1)))
    # Chapter 6-2
-    set_rule(multiworld.get_entrance("Menu -> c62_deck", player), lambda state:
+    set_rule(multiworld.get_entrance("Menu -> 6-2 Main Deck", player), lambda state:
 	    state.has("Chapter 6-2", player, 1))
-    set_rule(multiworld.get_entrance("c62_deck -> c62_bridge", player), lambda state:
+    set_rule(multiworld.get_entrance("6-2 Main Deck -> 6-2 Bridge", player), lambda state:
 	    state.has("Chapter 6-2", player, 1))
-    set_rule(multiworld.get_entrance("c62_bridge -> c62_aheri", player), lambda state:
+    set_rule(multiworld.get_entrance("6-2 Bridge -> 6-2 Bridge Deck", player), lambda state:
 	    (state.has("Chapter 6-2", player, 1) and
          state.has("Bridge Keycard", player, 1)))
    # Chapter 6-3
-    set_rule(multiworld.get_entrance("Menu -> c63_aheri", player), lambda state:
+    set_rule(multiworld.get_entrance("Menu -> 6-3 Bridge Deck", player), lambda state:
 	    state.has("Chapter 6-3", player, 1))
-    set_rule(multiworld.get_entrance("c63_aheri -> c63_bridge", player), lambda state:
+    set_rule(multiworld.get_entrance("6-3 Bridge Deck -> 6-3 Bridge Interior", player), lambda state:
 	    state.has("Chapter 6-3", player, 1))
-    set_rule(multiworld.get_entrance("c63_bridge -> c63_engine", player), lambda state:
+    set_rule(multiworld.get_entrance("6-3 Bridge Interior -> 6-3 Engine Room", player), lambda state:
 	    state.has("Chapter 6-3", player, 1))
-    set_rule(multiworld.get_entrance("c63_engine -> c63_hangar", player), lambda state:
+    set_rule(multiworld.get_entrance("6-3 Engine Room -> 6-3 Hangar", player), lambda state:
 	   (state.has("Chapter 6-3", player, 1) and
         state.has("Hangar Keycard A", player, 1) and
         state.has("Hangar Keycard B", player, 1)))
-    set_rule(multiworld.get_entrance("c63_hangar -> c63_volcano", player), lambda state:
+    set_rule(multiworld.get_entrance("6-3 Hangar -> 6-3 Volcano", player), lambda state:
 	    state.has("Chapter 6-3", player, 1))
+# Setup events for each level completion, assign "Complete Chapter X-Y" to them, require all completion for c63_volcano
    ##################
    # Location Rules #
    ##################
@@ -173,21 +162,42 @@ def set_chapter_rules(player, multiworld):
         state.has("Guard's Key", player, 1))
     set_rule(multiworld.get_location("2-1 Guard's Treasure Chest 4", player), lambda state:
         state.has("Guard's Key", player, 1))
-
+    set_rule(multiworld.get_location("6-3 Defeat Wesker", player), lambda state:
+       (state.has("Chapter 6-3", player, 1) and
+        state.has("Hangar Keycard A", player, 1) and
+        state.has("Hangar Keycard B", player, 1) and
+        state.has("Chapter 1-1 Complete", player, 1) and
+        state.has("Chapter 1-2 Complete", player, 1) and
+        state.has("Chapter 2-1 Complete", player, 1) and
+#        state.has("Chapter 2-2 Complete", player, 1) and
+#        state.has("Chapter 2-3 Complete", player, 1) and
+#        state.has("Chapter 3-1 Complete", player, 1) and
+#        state.has("Chapter 3-2 Complete", player, 1) and
+#        state.has("Chapter 3-3 Complete", player, 1) and
+#        state.has("Chapter 4-1 Complete", player, 1) and
+#        state.has("Chapter 4-1 Complete", player, 1) and
+#        state.has("Chapter 5-1 Complete", player, 1) and
+#        state.has("Chapter 5-2 Complete", player, 1) and
+#        state.has("Chapter 5-3 Complete", player, 1) and
+#        state.has("Chapter 6-1 Complete", player, 1) and
+#        state.has("Chapter 6-2 Complete", player, 1) and
+        state.has_group("weapons", player, 1)))
+        
     world.multiworld.completion_condition[player] = lambda state: state.has("Victory", player)
         
 def set_driving_rules(player, multiworld):
 # Adds the on-rails driving sequence 2-3, assuming the player wishes to do so.
 # Note: This adds no items. Just a level and a boss with no locations.
-    set_rule(multiworld.get_entrance("Menu -> c23_car", player), lambda state:
+    set_rule(multiworld.get_entrance("Menu -> 2-3 Savanna", player), lambda state:
 	    state.has("Chapter 2-3", player, 1))
-    set_rule(multiworld.get_entrance("c23_car -> c23_ndesu", player), lambda state:
+    set_rule(multiworld.get_entrance("2-3 Savanna -> 2-3 Night Port", player), lambda state:
 	    state.has("Chapter 2-3", player, 1))
         
-def set_rules(re5_world: "RE5World", include_driving):
+def set_rules(re5_world: "RE5World", ExcludeDriving):
     player = re5_world.player
     multiworld = re5_world.multiworld
+    world = re5_world
 
-    set_chapter_rules(player, multiworld)
-    if ExcludeDriving[0]:
+    set_chapter_rules(player, multiworld, world)
+    if not ExcludeDriving:
         set_driving_rules(player, multiworld)

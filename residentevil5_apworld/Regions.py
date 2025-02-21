@@ -106,7 +106,7 @@ region_exits: Dict[str, str] = {
     Chapters.c21_bridge: [Chapters.c21_port],
     Chapters.c21_port: [Chapters.c21_shanty],
     Chapters.c21_shanty: [Chapters.c21_train],
-    Chapters.c21_train: [Chapters.Menu
+    Chapters.c21_train: [Chapters.Menu,
                          Chapters.c22_station],
     Chapters.c22_station: [Chapters.c22_mines],
     Chapters.c22_mines: [Chapters.c22_popokarimu],

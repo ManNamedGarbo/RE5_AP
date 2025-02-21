@@ -5,7 +5,7 @@ from Options import Choice, OptionGroup, Toggle, OptionSet, Range
 
 def create_option_groups() -> List[OptionGroup]:
     option_group_list: List[OptionGroup] = []
-    for name, options in Re5_option_groups.items():
+    for name, options in RE5_option_groups.items():
         option_group_list.append(OptionGroup(name=name, options=options))
 
     return option_group_list
@@ -50,20 +50,17 @@ class IncludeTreasures(Toggle):
 #    """
 #    display_name = "Include BSAA Emblems"
 
-class ExcludeDriving(Choice):
+class ExcludeDriving(Toggle):
     """
     Choose if you wish to disable Chapter 2-3 Savanna from appearing in the randomizer.
     Note that no checks are in this level besides level completion, which currently isn't implemented anyways
     
     Include Driving will put Chapter 2-3 in the item pool.
-    Exclude Driving will remove Chapter 2-3 from the item pool.
+    Exclude Driving will not put Chapter 2-3 from the item pool.
     
     DO NOT CHANGE THIS SETTING FOR NOW, IT WILL DO NOTHING. IT IS ALWAYS INCLUDED FOR THE TIME BEING.
     """
     display_name = "Exclude Driving Level"
-    option_includedriving = 0
-    option_excludedriving = 1
-    default = 1
 
 class TrapChance(Range):
     """
@@ -97,7 +94,7 @@ class SiphonTrapWeight(Range):
     default = 10
 
 @dataclass
-class Re5Options(PerGameCommonOptions):
+class RE5Options(PerGameCommonOptions):
 # add IncludeEmblems whenever BSAA Emblems are able to be randomized in the future.
     StartingChapter:     StartingChapter
     IncludeTreasures:    IncludeTreasures
@@ -106,15 +103,15 @@ class Re5Options(PerGameCommonOptions):
     DiscardTrapWeight:   DiscardTrapWeight
     SiphonTrapWeight:    SiphonTrapWeight
 
-Re5_option_groups: Dict[str, List[Any]] = {
+RE5_option_groups: Dict[str, List[Any]] = {
 # add IncludeEmblems whenever BSAA Emblems are able to be randomized in the future.
     "General Options": [StartingChapter, IncludeTreasures, ExcludeDriving],
     "Trap Options": [TrapChance, DiscardTrapWeight, SiphonTrapWeight]
 }
 
-slot_data_options: List[str] = {
+slot_data_options: List[str] = [
 # add IncludeEmblems whenever BSAA Emblems are able to be randomized in the future.
     "StartingChapter",
     "IncludeTreasures",
-    "ExcludeDriving",
-}
+    "ExcludeDriving"
+]
