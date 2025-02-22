@@ -45,15 +45,15 @@ class RE5World(World):
         self.item_classification: Dict[RE5Type, ItemClassification] = {
             RE5Type.Chapter: ItemClassification.progression,
             RE5Type.Key: ItemClassification.progression,
-            RE5Type.Assault: ItemClassification.progression,
-            RE5Type.Magnum: ItemClassification.progression,
             RE5Type.Explosive: ItemClassification.progression,
             RE5Type.Special: ItemClassification.progression_skip_balancing, # I don't want it to rely on special weapons like the Minigun and Longbow for progression, but they are here in case you do get them.
-            RE5Type.Treasure: ItemClassification.useful,
+            RE5Type.Assault: ItemClassification.progression,
+            RE5Type.Magnum: ItemClassification.progression,
             RE5Type.Handgun: ItemClassification.progression,
             RE5Type.SMG: ItemClassification.progression,
             RE5Type.Shotgun: ItemClassification.progression,
             RE5Type.Rifle: ItemClassification.progression,
+            RE5Type.Treasure: ItemClassification.useful,
             RE5Type.Healing: ItemClassification.filler,
             RE5Type.Ammo: ItemClassification.filler,
             RE5Type.Filler: ItemClassification.filler
@@ -68,6 +68,17 @@ class RE5World(World):
     def set_rules(self):
         set_rules(self, self.options.ExcludeDriving.value)
 
+    group_table = ["weapons", "pistol"]
+    def generate_early(self):
+        print("group_table:", group_table) # Print group table contents for the purposes of debugging please!
+        if Options.StartingWeapon == 1:
+            self.multiworld.early_items[self.player]["weapons"] = 1
+        elif Options.StartingWeapon == 2:
+            self.multiworld.local_early_items[self.player]["weapons"] = 1
+        elif Options.StartingWeapon == 3:
+                self.multiworld.early_items[self.player]["pistol"] = 1
+        elif Options.StartingWeapon == 4:
+            self.multiworld.local_early_items[self.player]["pistol"] = 1
     def create_item(self, name: str) -> "Re5Item":
         item_id: int = self.item_name_to_id[name]
         item_type: RE5Type = self.item_name_to_type[name]
@@ -162,6 +173,7 @@ class RE5World(World):
         slot_data: Dict[str, Any] = {
             "locations": {loc["unique_id"]: (base_id + index) for index, loc in enumerate(location_table)},
             "StartingChapter": int(options.StartingChapter.value),
+            "StartingWeapon": int(options.StartingWeapon.value),
             "IncludeTreasures": bool(options.IncludeTreasures.value),
             "ExcludeDriving": bool(options.ExcludeDriving.value),
             "TrapChance": options.TrapChance.value,

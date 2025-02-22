@@ -7,15 +7,15 @@ from .Locations import location_table, event_table
 class RE5Type(Enum):
     Chapter = 0
     Key = 1
-    Assault = 2
-    Magnum = 3
-    Explosive = 4
-    Special = 5
-    Treasure = 6
-    Handgun = 7
-    SMG = 8
-    Shotgun = 9
-    Rifle = 10
+    Explosive = 2
+    Special = 3
+    Assault = 4
+    Magnum = 5
+    Handgun = 6
+    SMG = 7
+    Shotgun = 8
+    Rifle = 9
+    Treasure = 10
     Healing = 11
     Ammo = 12
     Filler = 13
@@ -148,56 +148,56 @@ item_table: List[ItemDict] = [
          'type': RE5Type.Key,
          'xml_id': 1306},
     # Chapters
-    # XML ID should be ignored by the Arc Randomizer, and instead a dummy item placed like gold.
+    # XML ID should be ignored by the Arc Randomizer, and instead place a dummy item in the location (invisible item from lost in nightmares?)
     # Location itself should be watched via memory to unlock chapter on the save.
     {'name': "Chapter 1-1",
          'type': RE5Type.Chapter,
-         'xml_id': -1},
+         'xml_id': -11},
     {'name': "Chapter 1-2",
          'type': RE5Type.Chapter,
-         'xml_id': -1},
+         'xml_id': -12},
     {'name': "Chapter 2-1",
          'type': RE5Type.Chapter,
-         'xml_id': -1},
+         'xml_id': -21},
     {'name': "Chapter 2-2",
          'type': RE5Type.Chapter,
-         'xml_id': -1},
+         'xml_id': -22},
     {'name': "Chapter 2-3",
          'type': RE5Type.Chapter,
-         'xml_id': -1},
+         'xml_id': -23},
     {'name': "Chapter 3-1",
          'type': RE5Type.Chapter,
-         'xml_id': -1},
+         'xml_id': -31},
     {'name': "Chapter 3-2",
          'type': RE5Type.Chapter,
-         'xml_id': -1},
+         'xml_id': -32},
     {'name': "Chapter 3-3",
          'type': RE5Type.Chapter,
-         'xml_id': -1},
+         'xml_id': -33},
     {'name': "Chapter 4-1",
          'type': RE5Type.Chapter,
-         'xml_id': -1},
+         'xml_id': -41},
     {'name': "Chapter 4-2",
          'type': RE5Type.Chapter,
-         'xml_id': -1},
+         'xml_id': -42},
     {'name': "Chapter 5-1",
          'type': RE5Type.Chapter,
-         'xml_id': -1},
+         'xml_id': -51},
     {'name': "Chapter 5-2",
          'type': RE5Type.Chapter,
-         'xml_id': -1},
+         'xml_id': -52},
     {'name': "Chapter 5-3",
          'type': RE5Type.Chapter,
-         'xml_id': -1},
+         'xml_id': -53},
     {'name': "Chapter 6-1",
          'type': RE5Type.Chapter,
-         'xml_id': -1},
+         'xml_id': -61},
     {'name': "Chapter 6-2",
          'type': RE5Type.Chapter,
-         'xml_id': -1},
+         'xml_id': -62},
     {'name': "Chapter 6-3",
          'type': RE5Type.Chapter,
-         'xml_id': -1},
+         'xml_id': -63},
     # Filler - Ammo, Herbs, Gold, etc
     {'name': "Handgun Ammo",
          'type': RE5Type.Filler,
@@ -280,11 +280,19 @@ item_table: List[ItemDict] = [
     {'name': "Small Gold",
          'type': RE5Type.Filler,
          'xml_id': 1026},
+    {'name': "H&K P8",
+     'type': RE5Type.Handgun,
+     'xml_id': 272},
+    {'name': "SIG P226",
+     'type': RE5Type.Handgun,
+     'xml_id': 273},
 ]
 
 
 group_table: Dict[str, Set[str]] = {
     "weapons": {"Beretta M92F",
+                "H&K P8",
+                "SIG P226",
                 "M93R",
                 "Ithaca 37",
                 "Benelli M3",
@@ -304,6 +312,22 @@ group_table: Dict[str, Set[str]] = {
                 "Samurai's Edge",
                 "Hydra",
                 "Minigun",
+                "Longbow"},
+    "pistol": {"Beretta M92F",
+                "Samurai's Edge",
+                "H&K P8",
+                "SIG P226",
+                "M93R"},
+    "precise": {"Beretta M92F",
+                "Samurai's Edge",
+                "H&K P8",
+                "SIG P226",
+                "S75",
+                "SVD Dragunov",
+                "H&K PSG-1",
+                "S&W M29",
+                "S&W M500",
+                "L. Hawk",
                 "Longbow"},
        "keys": {"Furnace Key",
                 "Port Key",
