@@ -8,7 +8,7 @@ from dataclasses import dataclass
 import Options
 from Options import Choice, OptionGroup, Toggle, OptionSet, Range
 from enum import Enum
-from .Items import RE5Type, item_table, group_table, base_id
+from .Items import RE5Type, item_table, group_table, base_id, ItemDict
 from .Locations import LocationDict, EventDict, location_table, base_id, event_table
 from .Regions import Chapters, region_exits
 from .Options import create_option_groups, RE5Options, RE5_option_groups, slot_data_options
@@ -41,7 +41,10 @@ class RE5World(World):
 
     def __init__(self, multiworld: MultiWorld, player: int):
         super(RE5World, self).__init__(multiworld, player)
-
+        self.multiworld = multiworld
+        self.player = player
+        self.item_table: List[ItemDict] = item_table
+        self.location_table: List[LocationDict] = location_table
         self.item_classification: Dict[RE5Type, ItemClassification] = {
             RE5Type.Chapter: ItemClassification.progression,
             RE5Type.Key: ItemClassification.progression,
@@ -115,8 +118,6 @@ class RE5World(World):
             else:
                 continue
 
-
-
         self.multiworld.itempool += itempool
 
     def create_junk_items(world: "RE5World", count: int) -> List[Item]:
@@ -183,27 +184,44 @@ class RE5World(World):
 
         return slot_data
 
-def client_data(self):
-    # Find the corresponding location and item from the tables
-    location = next((loc for loc in location_table if loc['name'] == self.chapter), None)
-    item = next((itm for itm in item_table if itm['name'] == self.xml_id), None)
+    def get_xml_id(self, item_name):
+        for item_entry in self.item_table:
+            if item_entry.get("name") == item_name:
+                return item_entry.get("xml_id", 1543)
+        return 1543
 
-    if location and item:
-        return {
-            "unique_id": location['unique_id'],
-            "xml_id": item['xml_id'],
-        }
-    else:
-        return {}  # In case the location or item isn't found, just break out of it.
+    def get_unique_id(self, location_name):
+        for location_entry in self.location_table:
+            if location_entry.get("name") == location_name:
+                return location_entry.get("unique_id")
+        return None
 
-def generate_output(self, output_directory: str):
-    data = self.client_data()
+    def generate_output(self, output_directory):
+        output_data = []
 
-    if data:  # Assuming we actually have the data, then print to json based after player slot
+        for location in self.multiworld.get_filled_locations(self.player):
+            if location.player != self.player:
+                continue
+
+            item = location.item
+            if item:
+                xml_id = self.get_xml_id(item.name)
+                unique_id = self.get_unique_id(location.name)
+
+                if unique_id:
+                    output_data.append({
+                        "location_unique_id": unique_id,
+                        "item_xml_id": xml_id
+                    })
+
         filename = f"{self.multiworld.get_out_file_name_base(self.player)}.json"
-        with open(os.path.join(output_directory, filename), 'w') as f:
-            json.dump(data, f, indent=4)
-        
+        json_file_path = os.path.join(output_directory, filename)
+
+        with open(json_file_path, 'w', encoding='utf-8') as f:
+            json.dump(output_data, f, indent=4)
+
+        self.multiworld.output_path = json_file_path
+
 class Re5Item(Item):
     game: str = "Resident Evil 5"
     

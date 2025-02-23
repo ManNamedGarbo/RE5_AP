@@ -9,7 +9,7 @@ from .Options import RE5Options, slot_data_options, RE5_option_groups, StartingC
 
 if TYPE_CHECKING:
     from . import RE5World
-    
+
 # Region connection rules, what region goes to where, and what you need to do so.
 def set_chapter_rules(player, multiworld, world: "RE5World"):
    # Chapter 1-1
@@ -167,7 +167,8 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
        state.has("Chapter 5-3 Complete", player, 1) and
        state.has("Chapter 6-1 Complete", player, 1) and
        state.has("Chapter 6-2 Complete", player, 1) and
-       state.has_group("weapons", player, 3)))
+       state.has_group("weapons", player, 3) and
+       state.has_group("heavywep", player, 1)))
    set_rule(multiworld.get_entrance("6-3 Bridge Deck -> 6-3 Bridge Interior", player), lambda state:
       (state.has("Chapter 6-3", player, 1) and
        state.has("Chapter 1-1 Complete", player, 1) and
@@ -184,7 +185,8 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
        state.has("Chapter 5-3 Complete", player, 1) and
        state.has("Chapter 6-1 Complete", player, 1) and
        state.has("Chapter 6-2 Complete", player, 1) and
-       state.has_group("weapons", player, 3)))
+       state.has_group("weapons", player, 3) and
+       state.has_group("heavywep", player, 1)))
    set_rule(multiworld.get_entrance("6-3 Bridge Interior -> 6-3 Engine Room", player), lambda state:
       (state.has("Chapter 6-3", player, 1) and
        state.has("Chapter 1-1 Complete", player, 1) and
@@ -201,7 +203,8 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
        state.has("Chapter 5-3 Complete", player, 1) and
        state.has("Chapter 6-1 Complete", player, 1) and
        state.has("Chapter 6-2 Complete", player, 1) and
-       state.has_group("weapons", player, 3)))
+       state.has_group("weapons", player, 3) and
+       state.has_group("heavywep", player, 1)))
    set_rule(multiworld.get_entrance("6-3 Engine Room -> 6-3 Hangar", player), lambda state:
 	  (state.has("Chapter 6-3", player, 1) and
        state.has("Chapter 1-1 Complete", player, 1) and
@@ -220,7 +223,8 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
        state.has("Chapter 6-2 Complete", player, 1) and
        state.has("Hangar Keycard A", player, 1) and
        state.has("Hangar Keycard B", player, 1) and
-       state.has_group("weapons", player, 3)))
+       state.has_group("weapons", player, 3) and
+       state.has_group("heavywep", player, 1)))
    set_rule(multiworld.get_entrance("6-3 Hangar -> 6-3 Volcano", player), lambda state:
       (state.has("Chapter 6-3", player, 1) and
        state.has("Chapter 1-1 Complete", player, 1) and
@@ -239,7 +243,8 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
        state.has("Chapter 6-2 Complete", player, 1) and
        state.has("Hangar Keycard A", player, 1) and
        state.has("Hangar Keycard B", player, 1) and
-       state.has_group("weapons", player, 3)))
+       state.has_group("weapons", player, 3) and
+       state.has_group("heavywep", player, 1)))
    if ExcludeDriving == 1:
        add_rule(multiworld.get_entrance("Menu -> 6-3 Bridge Deck", player), lambda state:
            state.has("Chapter 2-3 Complete", player, 1))
@@ -251,12 +256,13 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
            state.has("Chapter 2-3 Complete", player, 1))
        add_rule(multiworld.get_entrance("6-3 Hangar -> 6-3 Volcano", player), lambda state:
            state.has("Chapter 2-3 Complete", player, 1))
+       
 # Setup events for each level completion, assign "Complete Chapter X-Y" to them, require all completion for c63_volcano
-   ##################
-   # Location Rules #
-   ##################
+##########################
+##### LOCATION RULES #####
+##########################
    set_rule(multiworld.get_location("1-1 Executioner Gold Ring", player), lambda state:
-       state.has("weapons", player, 1))
+       state.has_group("heavywep", player, 1))
    set_rule(multiworld.get_location("1-2 Ithaca M37", player), lambda state:
        state.has("Old Building Key", player, 1))
    set_rule(multiworld.get_location("1-2 Ivory Relief from Allyson", player), lambda state:
@@ -269,6 +275,8 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
        state.has("Guard's Key", player, 1))
    set_rule(multiworld.get_location("2-1 Guard's Treasure Chest 4", player), lambda state:
        state.has("Guard's Key", player, 1))
+   set_rule(multiworld.get_location("3-1 Giant Majini Blue Enigma", player), lambda state:
+       state.has_group("heavywep", player, 1))
    set_rule(multiworld.get_location("6-3 Defeat Wesker", player), lambda state:
       (state.has("Chapter 6-3", player, 1) and
        state.has("Hangar Keycard A", player, 1) and
@@ -287,7 +295,8 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
        state.has("Chapter 5-3 Complete", player, 1) and
        state.has("Chapter 6-1 Complete", player, 1) and
        state.has("Chapter 6-2 Complete", player, 1) and
-       state.has_group("weapons", player, 1)))
+       state.has_group("weapons", player, 3) and
+       state.has_group("heavywep", player, 1)))
         
    world.multiworld.completion_condition[player] = lambda state: state.has("Victory", player)
         
@@ -298,12 +307,12 @@ def set_driving_rules(player, multiworld):
 	    state.has("Chapter 2-3", player, 1))
     set_rule(multiworld.get_entrance("2-3 Savanna -> 2-3 Night Port", player), lambda state:
 	    state.has("Chapter 2-3", player, 1))
-        
+
 def set_rules(re5_world: "RE5World", ExcludeDriving):
     player = re5_world.player
     multiworld = re5_world.multiworld
     world = re5_world
 
     set_chapter_rules(player, multiworld, world)
-    if not ExcludeDriving:
+    if ExcludeDriving == 1:
         set_driving_rules(player, multiworld)

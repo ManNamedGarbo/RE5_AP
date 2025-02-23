@@ -74,7 +74,7 @@ class Chapters:
     c63_hangar = "6-3 Hangar"                             #s506.arc
     c63_volcano = "6-3 Volcano"                           #s508.arc
 
-# I'm sorry for the crimes against python I must commit.  
+# I'm sorry for the crimes against python I must commit.
 region_exits: Dict[str, str] = {
     Chapters.Menu: [Chapters.c11_checkpoint,
                     Chapters.c12_assembly,
