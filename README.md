@@ -1,3 +1,5 @@
+See the AP Arc Randomizer, required for file mod randomization https://github.com/ManNamedGarbo/RE5_Arc_Rando
+
 # Current to-do (updated feb 23rd)
 - Finish all locations
 - Figure out where BSAA Emblems, Keys, and Chapter Unlocks are in the games memory so they can be randomized.
