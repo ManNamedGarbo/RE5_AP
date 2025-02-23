@@ -56,6 +56,8 @@ class IncludeTreasures(Toggle):
     """
     If enabled, Treasures are shuffled into the pool. This includes treasures found in terrain, in chests, standalone, or dropped by enemies. 
     This does NOT include RNG treasure drops such as the Lion Heart from Lickers.
+    
+    THIS SETTING CURRENTLY DOES NOTHING TO THE ITEM POOL. TREASURES ARE INCLUDED BY DEFAULT FOR THE TIME BEING.
     """
     display_name = "Include Treasures"
 
@@ -72,7 +74,7 @@ class ExcludeDriving(Toggle):
     Choose if you wish to disable Chapter 2-3 Savanna from appearing in the randomizer.
     Note that no checks are in this level besides level completion, which currently isn't implemented anyways
     
-    Disabling this setting will expect you to play 2-3 to goal.
+    Disabling this setting will require that Chapter 2-3 is completed for the Goal to be in logic.
     Enabling this setting will remove Chapter 2-3 from the pool, no longer expecting you to complete the level to goal.
     """
     display_name = "Exclude Driving Level"
