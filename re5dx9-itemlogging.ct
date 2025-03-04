@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="46">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>142</ID>
+      <Description>"Item Logger"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+pushad
+{$LUACODE itemInfo=EAX}
+local id = readSmallInteger(itemInfo + 0x76)
+local pos_x = readFloat(itemInfo + 0x10)
+local pos_y = readFloat(itemInfo + 0x14)
+local pos_z = readFloat(itemInfo + 0x18)
+
+printf('Picked up item: %d at (%f, %f, %f)', id, pos_x, pos_y, pos_z)
+
+{$ASM}
+popad
+
+originalcode:
+movzx ecx,word ptr [eax+76]
+mov [esi+1C],ecx
+
+exit:
+jmp returnhere
+
+"re5dx9.exe"+87F8B2:
+jmp newmem
+nop 2
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"re5dx9.exe"+87F8B2:
+db 0F B7 48 76 89 4E 1C
+//movzx ecx,word ptr [eax+76]
+//mov [esi+1C],ecx
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <DisassemblerComments>
+    <DisassemblerComment>
+      <Address>"re5dx9.exe"+5F91A5</Address>
+      <Comment>checking if menu is up?
+</Comment>
+    </DisassemblerComment>
+  </DisassemblerComments>
+</CheatTable>
