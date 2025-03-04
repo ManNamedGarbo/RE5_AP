@@ -261,22 +261,23 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
 ##########################
 ##### LOCATION RULES #####
 ##########################
-   set_rule(multiworld.get_location("1-1 Executioner Gold Ring", player), lambda state:
+   set_rule(multiworld.get_location("1-1 Gold Ring from Executioner", player), lambda state:
        state.has_group("heavywep", player, 1))
    set_rule(multiworld.get_location("1-2 Ithaca M37", player), lambda state:
        state.has("Old Building Key", player, 1))
+   set_rule(multiworld.get_location("1-2 Crate in Old Building", player), lambda state:
+       state.has("Old Building Key", player, 1))
    set_rule(multiworld.get_location("1-2 Ivory Relief from Allyson", player), lambda state:
-       state.has("weapons", player, 1))
-   set_rule(multiworld.get_location("2-1 Guard's Treasure Chest 1", player), lambda state:
-       state.has("Guard's Key", player, 1))
-   set_rule(multiworld.get_location("2-1 Guard's Treasure Chest 2", player), lambda state:
-       state.has("Guard's Key", player, 1))
-   set_rule(multiworld.get_location("2-1 Guard's Treasure Chest 3", player), lambda state:
-       state.has("Guard's Key", player, 1))
-   set_rule(multiworld.get_location("2-1 Guard's Treasure Chest 4", player), lambda state:
-       state.has("Guard's Key", player, 1))
-   set_rule(multiworld.get_location("3-1 Giant Majini Blue Enigma", player), lambda state:
-       state.has_group("heavywep", player, 1))
+       state.has_group("weapons", player, 1))
+   set_rule(multiworld.get_location("1-2 Gold Ring from Uroboros", player), lambda state:
+      (state.has("Furnace Key", player, 1) or
+       state.has("Rocket Launcher", player, 1)))
+   set_rule(multiworld.get_location("1-2 Handgun Ammo in Open Briefcase 1", player), lambda state:
+       state.has("Furnace Key", player, 1))
+   set_rule(multiworld.get_location("1-2 Handgun Ammo in Open Briefcase 2", player), lambda state:
+       state.has("Furnace Key", player, 1))
+   set_rule(multiworld.get_location("1-2 Handgun Ammo in Open Briefcase 3", player), lambda state:
+       state.has("Furnace Key", player, 1))
    set_rule(multiworld.get_location("6-3 Defeat Wesker", player), lambda state:
       (state.has("Chapter 6-3", player, 1) and
        state.has("Hangar Keycard A", player, 1) and
