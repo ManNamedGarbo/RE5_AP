@@ -149,7 +149,7 @@ location_table: List[LocationDict] = [
         'ycord': -355.806000,
         'zcord': -2631.244141,
         'loc_ap_id': 4618016},
-    {'name': "1-1 Green Herb on Shelf after Tunnel",
+    {'name': "1-1 Green Herb on Shelf after Barricade Shelter Tunnel",
         'chapter': Chapters.c11_alley2,
         'arc_file': "s116.arc",
         'vanilla_item': "uIt0301",

@@ -17,6 +17,15 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
    if not StartingChapter == 1:
        set_rule(multiworld.get_entrance("Menu -> 1-1 Civilian Checkpoint", player), lambda state:
            state.has("Chapter 1-1", player, 1))
+   set_rule(multiworld.get_entrance("1-1 Civilian Checkpoint -> 1-1 Back Alley First Half", player), lambda state:
+          (state.has("Chapter 1-1", player, 1) and
+           state.has("weapons", player, 1)))
+   set_rule(multiworld.get_entrance("1-1 Back Alley First Half -> 1-1 Back Alley Second Half", player), lambda state:
+          (state.has("Chapter 1-1", player, 1) and
+           state.has("weapons", player, 1)))    
+   set_rule(multiworld.get_entrance("1-1 Back Alley Second Half -> 1-1 Public Assembly", player), lambda state:
+          (state.has("Chapter 1-1", player, 1) and
+           state.has("weapons", player, 1)))    
    # Chapter 1-2
    if not StartingChapter == 2:
        set_rule(multiworld.get_entrance("Menu -> 1-2 Public Assembly", player), lambda state:
@@ -261,6 +270,19 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
 ##########################
 ##### LOCATION RULES #####
 ##########################
+   # Every location in 1-1 besides the initial M92F Briefcase requires a weapon be owned and held by both Chris and Sheva in order for the cutscene with the butcher to trigger; meaning without a weapon you cannot access the rest of the level. Other regions in 1-1 are handled by access rules, rather than location specific rules.
+   set_rule(multiworld.get_location("1-1 Box in Butcher Shop", player), lambda state:
+       state.has_group("weapons", player, 1))
+   set_rule(multiworld.get_location("1-1 Barrel outside Butcher Shop", player), lambda state:
+       state.has_group("weapons", player, 1))
+   set_rule(multiworld.get_location("1-1 Barrel in Deer House", player), lambda state:
+       state.has_group("weapons", player, 1))
+   set_rule(multiworld.get_location("1-1 Crate in Deer House 1", player), lambda state:
+       state.has_group("weapons", player, 1))
+   set_rule(multiworld.get_location("1-1 Crate in Deer House 2", player), lambda state:
+       state.has_group("weapons", player, 1))
+   set_rule(multiworld.get_location("1-1 Herb on Shelf in Deer House", player), lambda state:
+       state.has_group("weapons", player, 1))     
    set_rule(multiworld.get_location("1-1 Gold Ring from Executioner", player), lambda state:
        state.has_group("heavywep", player, 1))
    set_rule(multiworld.get_location("1-2 Ithaca M37", player), lambda state:
@@ -269,9 +291,11 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
        state.has("Old Building Key", player, 1))
    set_rule(multiworld.get_location("1-2 Ivory Relief from Allyson", player), lambda state:
        state.has_group("weapons", player, 1))
+   # Boss does not require a weapon to defeat. Rocket Launcher is an instant-kill however, so that is included.
    set_rule(multiworld.get_location("1-2 Gold Ring from Uroboros", player), lambda state:
       (state.has("Furnace Key", player, 1) or
        state.has("Rocket Launcher", player, 1)))
+   # Requires Key dropped from the boss to continue in the level
    set_rule(multiworld.get_location("1-2 Handgun Ammo in Open Briefcase 1", player), lambda state:
        state.has("Furnace Key", player, 1))
    set_rule(multiworld.get_location("1-2 Handgun Ammo in Open Briefcase 2", player), lambda state:
