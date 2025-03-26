@@ -71,16 +71,20 @@ class RE5World(World):
     def set_rules(self):
         set_rules(self, self.options.ExcludeDriving.value)
 
-    group_table = ["weapons", "pistol"]
     def generate_early(self):
         if Options.StartingWeapon == 1:
-            self.multiworld.early_items[self.player]["weapons"] = 1
+            weapon = random.choice(list(self.multiworld.group_table["weapons"]))
+            self.multiworld.early_items[self.player][weapon] = 1
         elif Options.StartingWeapon == 2:
-            self.multiworld.local_early_items[self.player]["weapons"] = 1
-        elif Options.StartingWeapon == 3:
-                self.multiworld.early_items[self.player]["pistol"] = 1
+            weapon = random.choice(list(self.multiworld.group_table["weapons"]))
+            self.multiworld.local_early_items[self.player][weapon] = 1
+        if Options.StartingWeapon == 3:
+            weapon = random.choice(list(self.multiworld.group_table["pistol"]))
+            self.multiworld.early_items[self.player][weapon] = 1
         elif Options.StartingWeapon == 4:
-            self.multiworld.local_early_items[self.player]["pistol"] = 1
+            weapon = random.choice(list(self.multiworld.group_table["pistol"]))
+            self.multiworld.local_early_items[self.player][weapon] = 1
+
     def create_item(self, name: str) -> "Re5Item":
         item_id: int = self.item_name_to_id[name]
         item_type: RE5Type = self.item_name_to_type[name]
