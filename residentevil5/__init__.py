@@ -33,7 +33,7 @@ class RE5World(World):
 
     item_name_to_id = {item["name"]: item["ap_id"] for item in item_table}
     item_name_to_type = {item["name"]: item["type"] for item in item_table}
-    location_name_to_id = {loc["name"]: loc["loc_ap_id"] for loc in location_table}
+    location_name_to_id = {loc["name"]: loc["ap_id"] for loc in location_table}
 
     item_name_groups = group_table
     options_dataclass = RE5Options
@@ -194,8 +194,8 @@ class RE5World(World):
         # Add locations from location_table
         for loc in location_table:
             Chapter: Region = self.get_region(loc["chapter"])
-            # Use the static ID directly from loc["loc_ap_id"] instead of the dynamic ID calculation
-            Chapter.add_locations({loc["name"]: loc["loc_ap_id"]})
+            # Use the static ID directly from loc["ap_id"] instead of the dynamic ID calculation
+            Chapter.add_locations({loc["name"]: loc["ap_id"]})
 
         # Add events from event_table
         for e in event_table:
@@ -216,7 +216,7 @@ class RE5World(World):
         options = self.options
         
         slot_data: Dict[str, Any] = {
-            "locations": {loc["loc_ap_id"]: loc["loc_ap_id"] for loc in location_table},
+            "locations": {loc["ap_id"]: loc["ap_id"] for loc in location_table},
             "StartingChapter": int(options.StartingChapter.value),
             "StartingWeapon": int(options.StartingWeapon.value),
             "IncludeTreasures": bool(options.IncludeTreasures.value),
@@ -259,10 +259,7 @@ class RE5World(World):
                 
                 if location_data:
                     arc_file = location_data['arc_file']
-                    vanilla_item = location_data['vanilla_item']
-                    xcord = location_data['xcord']
-                    ycord = location_data['ycord']
-                    zcord = location_data['zcord']
+                    ap_id = location_data['ap_id']
                 else:
                     # Handle cases where location data is missing
                     print(f"Warning: No location data found for {location.name}")
@@ -271,10 +268,7 @@ class RE5World(World):
                 # Append the data for this location and item pairing
                 output_data.append({
                     "arc_file": arc_file,
-                    "vanilla_item": vanilla_item,
-                    "xcord": xcord,
-                    "ycord": ycord,
-                    "zcord": zcord,
+                    "ap_id": ap_id,
                     "item_xml_id": item_xml_id  # Item xml_id (item_xml_id)
                 })
             else:
