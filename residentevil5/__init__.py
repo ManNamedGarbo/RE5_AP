@@ -100,7 +100,7 @@ class RE5World(World):
         return classification
         
     def create_event(self, event: str) -> "Re5Item":
-        return Re5Item(event, ItemClassification.progression_skip_balancing, None, self.player)
+        return Re5Item(event, True, ItemClassification.progression_skip_balancing, self.player)
 
     def get_filler_item_name(self) -> str:
         item = self.random.choice(item_table)
@@ -127,8 +127,7 @@ class RE5World(World):
         # Create exactly 'count' junk items
         for i in range(count):
             if junk_list:  # Make sure we have junk items to choose from
-                chosen_item = self.random.choices(
-                    list(junk_list.keys()), 
+                chosen_item = world.random.choices(list(junk_list.keys()), 
                     weights=list(junk_list.values()), 
                     k=1
                 )[0]

@@ -1,0 +1,9 @@
+{
+    "authors": ["ManNamedGarbo, Johnny Hamcobbler"],
+    "compatible_version": 7,
+    "game": "Resident Evil 5",
+    "idgb_id": 847,
+    "minimum_ap_version": "0.6.3",
+    "version": 7,
+    "world_version": "0.0.6"
+}

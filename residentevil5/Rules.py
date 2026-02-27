@@ -46,7 +46,7 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
            state.has("Chapter 2-1", player, 1))
        set_rule(multiworld.get_entrance("2-1 The Bridge -> 2-1 The Port", player), lambda state:
            state.has("Chapter 2-1", player, 1))
-       add_rule(multiworld.get_entrance("2-1 The Port -> 2-1 Shanty Town", player), lambda state:
+       set_rule(multiworld.get_entrance("2-1 The Port -> 2-1 Shanty Town", player), lambda state:
            state.has("Chapter 2-1", player, 1))
        set_rule(multiworld.get_entrance("2-1 Shanty Town -> 2-1 Train Yard", player), lambda state:
            state.has("Chapter 2-1", player, 1))
@@ -67,7 +67,7 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
    if not StartingChapter == 5:
        set_rule(multiworld.get_entrance("Menu -> 3-1 Marshlands", player), lambda state:
            state.has("Chapter 3-1", player, 1))
-       add_rule(multiworld.get_entrance("3-1 Marshlands -> 3-1 Village", player), lambda state:
+       set_rule(multiworld.get_entrance("3-1 Marshlands -> 3-1 Village", player), lambda state:
 	       state.has("Chapter 3-1", player, 1))
    # Chapter 3-2
    if not StartingChapter == 6:
@@ -101,7 +101,7 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
    if not StartingChapter == 9:
        set_rule(multiworld.get_entrance("Menu -> 4-2 Worship Area", player), lambda state:
            state.has("Chapter 4-2", player, 1))
-       add_rule(multiworld.get_entrance("4-2 Worship Area -> 4-2 Pyramid", player), lambda state:
+       set_rule(multiworld.get_entrance("4-2 Worship Area -> 4-2 Pyramid", player), lambda state:
            state.has("Chapter 4-2", player, 1))
        set_rule(multiworld.get_entrance("4-2 Pyramid -> 4-2 Underground Garden", player), lambda state:
            state.has("Chapter 4-2", player, 1))
@@ -137,7 +137,7 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
            state.has("Chapter 5-3", player, 1))
        set_rule(multiworld.get_entrance("5-3 Moving Platform -> 5-3 Monarch Room Entrance", player), lambda state:
            state.has("Chapter 5-3", player, 1))
-       add_rule(multiworld.get_entrance("5-3 Monarch Room Entrance -> 5-3 Monarch Room Jill & Wesker", player), lambda state:
+       set_rule(multiworld.get_entrance("5-3 Monarch Room Entrance -> 5-3 Monarch Room Jill & Wesker", player), lambda state:
            state.has("Chapter 5-3", player, 1))
    # Chapter 6-1
    set_rule(multiworld.get_entrance("6-1 Ship Deck -> 6-1 Ship Hold", player), lambda state:
@@ -147,7 +147,7 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
    if not StartingChapter == 13:
        set_rule(multiworld.get_entrance("Menu -> 6-1 Ship Deck", player), lambda state:
            state.has("Chapter 6-1", player, 1))
-       add_rule(multiworld.get_entrance("6-1 Ship Deck -> 6-1 Ship Hold", player), lambda state:
+       set_rule(multiworld.get_entrance("6-1 Ship Deck -> 6-1 Ship Hold", player), lambda state:
            state.has("Chapter 6-1", player, 1))
    # Chapter 6-2
    set_rule(multiworld.get_entrance("6-2 Bridge -> 6-2 Bridge Deck", player), lambda state:
@@ -157,7 +157,7 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
            state.has("Chapter 6-2", player, 1))
        set_rule(multiworld.get_entrance("6-2 Main Deck -> 6-2 Bridge", player), lambda state:
            state.has("Chapter 6-2", player, 1))
-       add_rule(multiworld.get_entrance("6-2 Bridge -> 6-2 Bridge Deck", player), lambda state:
+       set_rule(multiworld.get_entrance("6-2 Bridge -> 6-2 Bridge Deck", player), lambda state:
            state.has("Chapter 6-2", player, 1))
    # Chapter 6-3
    set_rule(multiworld.get_entrance("Menu -> 6-3 Bridge Deck", player), lambda state:
@@ -176,7 +176,7 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
        state.has("Chapter 5-3 Complete", player, 1) and
        state.has("Chapter 6-1 Complete", player, 1) and
        state.has("Chapter 6-2 Complete", player, 1) and
-       state.has_group("weapons", player, 3) and
+       state.has_group("weapons", player, 1) and
        state.has_group("heavywep", player, 1)))
    set_rule(multiworld.get_entrance("6-3 Bridge Deck -> 6-3 Bridge Interior", player), lambda state:
       (state.has("Chapter 6-3", player, 1) and
@@ -194,7 +194,7 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
        state.has("Chapter 5-3 Complete", player, 1) and
        state.has("Chapter 6-1 Complete", player, 1) and
        state.has("Chapter 6-2 Complete", player, 1) and
-       state.has_group("weapons", player, 3) and
+       state.has_group("weapons", player, 1) and
        state.has_group("heavywep", player, 1)))
    set_rule(multiworld.get_entrance("6-3 Bridge Interior -> 6-3 Engine Room", player), lambda state:
       (state.has("Chapter 6-3", player, 1) and
@@ -212,7 +212,7 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
        state.has("Chapter 5-3 Complete", player, 1) and
        state.has("Chapter 6-1 Complete", player, 1) and
        state.has("Chapter 6-2 Complete", player, 1) and
-       state.has_group("weapons", player, 3) and
+       state.has_group("weapons", player, 1) and
        state.has_group("heavywep", player, 1)))
    set_rule(multiworld.get_entrance("6-3 Engine Room -> 6-3 Hangar", player), lambda state:
 	  (state.has("Chapter 6-3", player, 1) and
@@ -232,7 +232,7 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
        state.has("Chapter 6-2 Complete", player, 1) and
        state.has("Hangar Keycard A", player, 1) and
        state.has("Hangar Keycard B", player, 1) and
-       state.has_group("weapons", player, 3) and
+       state.has_group("weapons", player, 1) and
        state.has_group("heavywep", player, 1)))
    set_rule(multiworld.get_entrance("6-3 Hangar -> 6-3 Volcano", player), lambda state:
       (state.has("Chapter 6-3", player, 1) and
@@ -252,18 +252,18 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
        state.has("Chapter 6-2 Complete", player, 1) and
        state.has("Hangar Keycard A", player, 1) and
        state.has("Hangar Keycard B", player, 1) and
-       state.has_group("weapons", player, 3) and
+       state.has_group("weapons", player, 1) and
        state.has_group("heavywep", player, 1)))
    if ExcludeDriving == 1:
-       add_rule(multiworld.get_entrance("Menu -> 6-3 Bridge Deck", player), lambda state:
+       set_rule(multiworld.get_entrance("Menu -> 6-3 Bridge Deck", player), lambda state:
            state.has("Chapter 2-3 Complete", player, 1))
-       add_rule(multiworld.get_entrance("6-3 Bridge Deck -> 6-3 Bridge Interior", player), lambda state:
+       set_rule(multiworld.get_entrance("6-3 Bridge Deck -> 6-3 Bridge Interior", player), lambda state:
            state.has("Chapter 2-3 Complete", player, 1))
-       add_rule(multiworld.get_entrance("6-3 Bridge Interior -> 6-3 Engine Room", player), lambda state:
+       set_rule(multiworld.get_entrance("6-3 Bridge Interior -> 6-3 Engine Room", player), lambda state:
            state.has("Chapter 2-3 Complete", player, 1))
-       add_rule(multiworld.get_entrance("6-3 Engine Room -> 6-3 Hangar", player), lambda state:
+       set_rule(multiworld.get_entrance("6-3 Engine Room -> 6-3 Hangar", player), lambda state:
            state.has("Chapter 2-3 Complete", player, 1))
-       add_rule(multiworld.get_entrance("6-3 Hangar -> 6-3 Volcano", player), lambda state:
+       set_rule(multiworld.get_entrance("6-3 Hangar -> 6-3 Volcano", player), lambda state:
            state.has("Chapter 2-3 Complete", player, 1))
        
 # Setup events for each level completion, assign "Complete Chapter X-Y" to them, require all completion for c63_volcano
@@ -275,32 +275,30 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
        state.has_group("weapons", player, 1))
    set_rule(multiworld.get_location("1-1 Barrel outside Butcher Shop", player), lambda state:
        state.has_group("weapons", player, 1))
-   set_rule(multiworld.get_location("1-1 Barrel in Deer House", player), lambda state:
+   set_rule(multiworld.get_location("1-1 Barrel near Deer Carcass", player), lambda state:
        state.has_group("weapons", player, 1))
-   set_rule(multiworld.get_location("1-1 Crate in Deer House 1", player), lambda state:
+   set_rule(multiworld.get_location("1-1 Box near Deer Carcass 1", player), lambda state:
        state.has_group("weapons", player, 1))
-   set_rule(multiworld.get_location("1-1 Crate in Deer House 2", player), lambda state:
+   set_rule(multiworld.get_location("1-1 Box near Deer Carcass 2", player), lambda state:
        state.has_group("weapons", player, 1))
-   set_rule(multiworld.get_location("1-1 Herb on Shelf in Deer House", player), lambda state:
+   set_rule(multiworld.get_location("1-1 Green Herb on Shelf near Deer Carcass", player), lambda state:
        state.has_group("weapons", player, 1))     
-   set_rule(multiworld.get_location("1-1 Gold Ring from Executioner", player), lambda state:
-       state.has_group("heavywep", player, 1))
+   set_rule(multiworld.get_location("1-1 Executioner's Gold Ring", player), lambda state:
+       state.has_group("weapons", player, 1))
    set_rule(multiworld.get_location("1-2 Ithaca M37", player), lambda state:
        state.has("Old Building Key", player, 1))
-   set_rule(multiworld.get_location("1-2 Crate in Old Building", player), lambda state:
-       state.has("Old Building Key", player, 1))
-   set_rule(multiworld.get_location("1-2 Ivory Relief from Allyson", player), lambda state:
+   set_rule(multiworld.get_location("1-2 Blonde Girl Ivory Relief", player), lambda state:
        state.has_group("weapons", player, 1))
    # Boss does not require a weapon to defeat. Rocket Launcher is an instant-kill however, so that is included.
-   set_rule(multiworld.get_location("1-2 Gold Ring from Uroboros", player), lambda state:
+   set_rule(multiworld.get_location("1-2 Furnace Uroboros Gold Ring", player), lambda state:
       (state.has("Furnace Key", player, 1) or
        state.has("Rocket Launcher", player, 1)))
    # Requires Key dropped from the boss to continue in the level
-   set_rule(multiworld.get_location("1-2 Handgun Ammo in Open Briefcase 1", player), lambda state:
+   set_rule(multiworld.get_location("1-2 Handgun Ammo Briefcase after Furnace Uroboros 1", player), lambda state:
        state.has("Furnace Key", player, 1))
-   set_rule(multiworld.get_location("1-2 Handgun Ammo in Open Briefcase 2", player), lambda state:
+   set_rule(multiworld.get_location("1-2 Handgun Ammo Briefcase after Furnace Uroboros 2", player), lambda state:
        state.has("Furnace Key", player, 1))
-   set_rule(multiworld.get_location("1-2 Handgun Ammo in Open Briefcase 3", player), lambda state:
+   set_rule(multiworld.get_location("1-2 Handgun Ammo Briefcase after Furnace Uroboros 3", player), lambda state:
        state.has("Furnace Key", player, 1))
    set_rule(multiworld.get_location("6-3 Defeat Wesker", player), lambda state:
       (state.has("Chapter 6-3", player, 1) and
@@ -320,7 +318,7 @@ def set_chapter_rules(player, multiworld, world: "RE5World"):
        state.has("Chapter 5-3 Complete", player, 1) and
        state.has("Chapter 6-1 Complete", player, 1) and
        state.has("Chapter 6-2 Complete", player, 1) and
-       state.has_group("weapons", player, 3) and
+       state.has_group("weapons", player, 1) and
        state.has_group("heavywep", player, 1)))
         
    world.multiworld.completion_condition[player] = lambda state: state.has("Victory", player)
@@ -341,3 +339,4 @@ def set_rules(re5_world: "RE5World", ExcludeDriving):
     set_chapter_rules(player, multiworld, world)
     if ExcludeDriving == 1:
         set_driving_rules(player, multiworld)
+
