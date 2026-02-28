@@ -6,7 +6,7 @@ from worlds.AutoWorld import PerGameCommonOptions, World, WebWorld
 from dataclasses import dataclass
 
 import Options
-from Options import Choice, OptionGroup, Toggle, OptionSet, Range
+from Options import Choice, OptionGroup, Toggle, OptionSet, Range, OptionError
 from enum import Enum
 from .Items import RE5Type, item_table, group_table, ItemDict
 from .Locations import LocationDict, EventDict, location_table, event_table
@@ -68,22 +68,39 @@ class RE5World(World):
     def remove(self, state: "CollectionState", item: "Item") -> bool:
         return super().remove(state, item)
 
-    def set_rules(self):
-        set_rules(self, self.options.ExcludeDriving.value)
+    def set_rules(re5_world: "RE5World"):
+        player = re5_world.player
+        multiworld = re5_world.multiworld
+        world = re5_world
+
+        set_chapter_rules(player, multiworld, world)
+        if world.options.ExcludeDriving.value == 1:
+            set_driving_rules(player, multiworld)
 
     def generate_early(self):
-        if Options.StartingWeapon == 1:
-            weapon = random.choice(list(self.multiworld.group_table["weapons"]))
-            self.multiworld.early_items[self.player][weapon] = 1
-        elif Options.StartingWeapon == 2:
-            weapon = random.choice(list(self.multiworld.group_table["weapons"]))
-            self.multiworld.local_early_items[self.player][weapon] = 1
-        if Options.StartingWeapon == 3:
-            weapon = random.choice(list(self.multiworld.group_table["pistol"]))
-            self.multiworld.early_items[self.player][weapon] = 1
-        elif Options.StartingWeapon == 4:
-            weapon = random.choice(list(self.multiworld.group_table["pistol"]))
-            self.multiworld.local_early_items[self.player][weapon] = 1
+        choice = self.options.StartingWeapon.value
+        
+        if (self.options.StartingChapter.value == 1 and 
+            self.options.StartingWeapon.value == 5):  # option_None
+            raise OptionError("Starting Weapon cannot be 'None' when Starting Chapter is 1-1 as a weapon is required to progress past the first region.")        
+
+        if choice == 1:  # Early weapon global
+            group = "weapons"
+            target_pool = self.multiworld.early_items[self.player]
+        elif choice == 2:  # Early weapon local
+            group = "weapons"
+            target_pool = self.multiworld.local_early_items[self.player]
+        elif choice == 3:  # Early pistol global
+            group = "pistol"
+            target_pool = self.multiworld.early_items[self.player]
+        elif choice == 4:  # Early pistol local
+            group = "pistol"
+            target_pool = self.multiworld.local_early_items[self.player]
+        else:
+            return
+
+        weapon = self.random.choice(list(group_table[group]))
+        target_pool[weapon] = 1
 
     def create_item(self, name: str) -> "Re5Item":
         item_id: int = self.item_name_to_id[name]
@@ -100,7 +117,7 @@ class RE5World(World):
         return classification
         
     def create_event(self, event: str) -> "Re5Item":
-        return Re5Item(event, True, ItemClassification.progression_skip_balancing, self.player)
+        return Re5Item(event, ItemClassification.progression_skip_balancing, None, self.player)
 
     def get_filler_item_name(self) -> str:
         item = self.random.choice(item_table)
@@ -127,7 +144,7 @@ class RE5World(World):
         # Create exactly 'count' junk items
         for i in range(count):
             if junk_list:  # Make sure we have junk items to choose from
-                chosen_item = world.random.choices(list(junk_list.keys()), 
+                chosen_item = self.random.choices(list(junk_list.keys()), 
                     weights=list(junk_list.values()), 
                     k=1
                 )[0]
@@ -143,7 +160,7 @@ class RE5World(World):
         # Create all your main items
         for item in item_table:
             # Skip Chapter 2-3 if driving is excluded
-            if item["name"] == "Chapter 2-3" and options.ExcludeDriving.value == 0:
+            if item["name"] == "Chapter 2-3" and options.ExcludeDriving.value == 1:
                 continue
         
             itempool.append(self.create_item(item["name"]))
@@ -171,43 +188,43 @@ class RE5World(World):
         multiworld = self.multiworld
         player = self.player
 
-        # Create the Menu region and add it to the multiworld
-        menu = Region("Menu", player, multiworld)
-        multiworld.regions.append(menu)
+        # Helper functions
+        def create_region(name: str) -> Region:
+            existing = next((r for r in multiworld.regions if r.name == name and r.player == player), None)
+            if existing:
+                return existing
+            reg = Region(name, player, multiworld)
+            multiworld.regions.append(reg)
+            return reg
 
-        # Add all other regions to multiworld
-        for n in region_exits:
-            multiworld.regions += [Region(n, player, multiworld)]
+        def connect_region(src_name: str, dest_name: str):
+            src_region = create_region(src_name)
+            dest_region = create_region(dest_name)
+            entrance_name = f"{src_name} -> {dest_name}"
+            src_region.connect(dest_region, entrance_name)
 
-        # Add exits for the Menu region
-        menu.add_exits({"1-1 Civilian Checkpoint": "New Game"})
+        create_region("Menu")
+        for region_name in region_exits.keys():
+            create_region(region_name)
 
-        # Now, add exits to all other regions
-        for n in region_exits:
-            region = self.get_region(n)  # Make sure this returns a valid region
-            if region:
-                region.add_exits(region_exits[n])
-            else:
-                print(f"Warning: Region {n} not found!")
+        for src_name, dest_list in region_exits.items():
+            for dest_name in dest_list:
+                connect_region(src_name, dest_name)
 
-        # Add locations from location_table
         for loc in location_table:
-            Chapter: Region = self.get_region(loc["chapter"])
-            # Use the static ID directly from loc["ap_id"] instead of the dynamic ID calculation
-            Chapter.add_locations({loc["name"]: loc["ap_id"]})
+            chapter_region = create_region(loc["chapter"])
+            chapter_region.add_locations({loc["name"]: loc["ap_id"]})
 
-        # Add events from event_table
         for e in event_table:
-            chapter_region = self.get_region(e["chapter"])
+            chapter_region = create_region(e["chapter"])
             if chapter_region:
                 event = Re5Location(player, e["name"], None, chapter_region)
                 event.show_in_spoiler = False
                 event.place_locked_item(self.create_event(e["item"]))
-                chapter_region.locations += [event]
+                chapter_region.locations.append(event)
             else:
-                print(f"Warning: Event chapter {e['chapter']} not found!")
+                raise Exception(f"Event chapter '{e['chapter']}' not found! This is a bug, please report it.")
 
-        # Set the completion condition
         multiworld.completion_condition[player] = lambda state: state.has("Victory", player)
 
         
@@ -226,63 +243,6 @@ class RE5World(World):
         }
 
         return slot_data
-
-    def get_xml_id(self, item_name):
-        for item_entry in self.item_table:
-            if item_entry.get("name") == item_name:
-                return item_entry.get("xml_id", 1543)  # Default to 1543 if xml_id is not found
-        return 1543  # Default if item not found in item_table
-
-
-    def generate_output(self, output_directory):
-        output_data = []
-
-        # Assuming location_table is available and contains location data
-        # Assuming item_table is available and contains item data
-        for location in self.multiworld.get_filled_locations(self.player):
-            if location.player != self.player:
-                continue
-
-            # If location has an item
-            item = location.item
-            if item:
-                # Retrieve xml_id from the item_table (Items.py)
-                item_xml_id = self.get_xml_id(item.name)
-
-                # If the xml_id is negative or not found, set it to 1543
-                if item_xml_id is None or item_xml_id < 0:
-                    item_xml_id = 1543
-
-                # Retrieve corresponding location data from location_table (Locations.py)
-                location_data = next((loc for loc in self.location_table if loc['name'] == location.name), None)
-                
-                if location_data:
-                    arc_file = location_data['arc_file']
-                    ap_id = location_data['ap_id']
-                else:
-                    # Handle cases where location data is missing
-                    print(f"Warning: No location data found for {location.name}")
-                    continue
-
-                # Append the data for this location and item pairing
-                output_data.append({
-                    "arc_file": arc_file,
-                    "ap_id": ap_id,
-                    "item_xml_id": item_xml_id  # Item xml_id (item_xml_id)
-                })
-            else:
-                # If location has no item, log or handle it as necessary
-                print(f"Warning: Location {location.name} is empty or unfilled.")
-
-        # Output the data to a JSON file
-        filename = f"{self.multiworld.get_out_file_name_base(self.player)}.json"
-        json_file_path = os.path.join(output_directory, filename)
-
-        with open(json_file_path, 'w', encoding='utf-8') as f:
-            json.dump(output_data, f, indent=4)
-
-        self.multiworld.output_path = json_file_path
-
 
 class Re5Item(Item):
     game: str = "Resident Evil 5"

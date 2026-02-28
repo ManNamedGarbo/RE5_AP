@@ -438,11 +438,11 @@ location_table: List[LocationDict] = [
         'arc_file': "s115.arc",
         'ap_id': 4861105},
     {'name': "1-1 M92F Handgun Briefcase 1",
-        'chapter': Chapters.c11_alley1,
+        'chapter': Chapters.c11_checkpoint,
         'arc_file': "s115.arc",
         'ap_id': 4861106},
     {'name': "1-1 M92F Handgun Briefcase 2", # Potentially missable, as you can only grab one at a time. Requires either a reload to grab the other, or by discarding the first one, then grabbing the second one before triggering the cutscene.
-        'chapter': Chapters.c11_alley1,
+        'chapter': Chapters.c11_checkpoint,
         'arc_file': "s115.arc",
         'ap_id': 4861107},
     {'name': "1-1 Barrel outside Butcher Shop",

@@ -50,7 +50,7 @@ class StartingWeapon(Choice):
     option_Early_Pistol = 3
     option_Early_Local_Pistol = 4
     option_None = 5
-    default = 3
+    default = 4
 
 class IncludeTreasures(Toggle):
     """
